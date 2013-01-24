@@ -1,4 +1,4 @@
-# Plos
+# PLoS
 
 A Ruby library for interacting with the Public Library of Science (PLoS) API
 

@@ -1,6 +1,6 @@
 # Plos
 
-TODO: Write a gem description
+A Ruby library for interacting with the Public Library of Science (PLoS) API
 
 ## Installation
 
@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'plos'
+
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.search("xenograft")
+hits.each do |hits|
+  puts "#{hit.score} - #{hit.title}"
+end
+```
 
 ## Contributing
 

@@ -4,9 +4,9 @@ require File.expand_path('../lib/plos/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Christopher Petersen"]
   gem.email         = ["christopher.petersen@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{A Ruby library for interacting with the Public Library of Science (PLoS) API}
+  gem.summary       = %q{A Ruby library for interacting with the Public Library of Science (PLoS) API}
+  gem.homepage      = "https://github.com/cpetersen/plos"
 
   gem.add_dependency('nokogiri')
   gem.add_dependency('rest-client')

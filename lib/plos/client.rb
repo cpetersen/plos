@@ -1,3 +1,4 @@
+require "nokogiri"
 require "rest_client"
 
 module PLOS
@@ -11,7 +12,17 @@ module PLOS
     end
 
     def search(query)
-      execute( search_url, { :q => query } )
+      result = []
+      doc = execute( search_url, { :q => query } )
+      if doc && doc.root
+        doc.root.children.each do |child|
+          next unless child.name == "result"
+          child.children.each do |doc|
+            result << PLOS::ArticleRef.new(self, doc)
+          end
+        end
+      end
+      result
     end
 
     def search_url
@@ -19,7 +30,7 @@ module PLOS
     end
 
     def execute(url, params={})
-      RestClient.post( "#{self.base_url}#{url}", { :api_key => self.api_key }.merge(params) )
+      Nokogiri::XML(RestClient.post( "#{self.base_url}#{url}", { :api_key => self.api_key }.merge(params) ) )
     end
   end
 end

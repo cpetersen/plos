@@ -8,6 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = ""
 
+  gem.add_dependency('nokogiri')
   gem.add_dependency('rest-client')
   gem.add_development_dependency('rake')
   gem.add_development_dependency('rspec')

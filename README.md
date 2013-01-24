@@ -1,4 +1,4 @@
-# PLoS
+# PLoS [![Build Status](https://travis-ci.org/cpetersen/plos.png?branch=master)](https://travis-ci.org/cpetersen/plos)
 
 A Ruby library for interacting with the Public Library of Science (PLoS) API
 

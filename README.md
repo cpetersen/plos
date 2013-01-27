@@ -24,8 +24,11 @@ require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
 hits.each do |hit|
-  puts "#{hit.score} - #{hit.title}"
+  puts "#{hit.score} - #{hit.title} - #{hit.article_url}"
 end
+
+xml = hit[2].article_xml
+puts hit[2].citation
 ```
 
 ## Contributing

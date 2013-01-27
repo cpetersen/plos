@@ -41,6 +41,15 @@ module PLOS
       end
     end
 
+    def article_xml
+      Nokogiri::XML(RestClient.get(article_url))
+    end
+
+    def citation(format="RIS")
+      url = (format == "RIS" ? ris_citation_url : bib_tex_citation_url)
+      RestClient.get(url)
+    end
+
     def base_url
       "http://www.plosone.org"
     end

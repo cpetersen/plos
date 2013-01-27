@@ -11,6 +11,7 @@ module PLOS
     attr_accessor :journal
     attr_accessor :published_at
     attr_accessor :title
+
     alias :article_type= :type=
     alias :author_display= :authors=
     alias :title_display= :title=
@@ -38,6 +39,23 @@ module PLOS
       node.children.each do |child|
         ArticleRef.parse_node(child, self)
       end
+    end
+
+    def base_url
+      "http://www.plosone.org"
+    end
+
+    def article_url(format="XML")
+      # format = "XML|PDF"
+      "#{base_url}/article/fetchObjectAttachment.action?uri=info:doi/#{id}&representation=#{format}"
+    end
+    
+    def ris_citation_url
+      "#{base_url}/article/getRisCitation.action?articleURI=info:doi/#{id}"
+    end
+
+    def bib_tex_citation_url
+      "#{base_url}/article/getBibTexCitation.action?articleURI=info:doi/#{id}"
     end
   end
 end

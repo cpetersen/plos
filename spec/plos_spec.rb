@@ -41,5 +41,21 @@ describe PLOS do
     it "should parse an ArticleRef" do
       article.type.should == "Research Article"
     end
+
+    it "should have the proper xml article url" do
+      article.article_url.should == "http://www.plosone.org/article/fetchObjectAttachment.action?uri=info:doi/10.1371/journal.pone.0050494&representation=XML"
+    end
+
+    it "should have the proper pdf article url" do
+      article.article_url("PDF").should == "http://www.plosone.org/article/fetchObjectAttachment.action?uri=info:doi/10.1371/journal.pone.0050494&representation=PDF"
+    end
+
+    it "should have the proper ris citation url" do
+      article.ris_citation_url.should == "http://www.plosone.org/article/getRisCitation.action?articleURI=info:doi/10.1371/journal.pone.0050494"
+    end
+
+    it "should have the proper bib tex citation url" do
+      article.bib_tex_citation_url.should == "http://www.plosone.org/article/getBibTexCitation.action?articleURI=info:doi/10.1371/journal.pone.0050494"
+    end
   end
 end

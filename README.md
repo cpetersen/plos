@@ -23,7 +23,7 @@ require 'plos'
 
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
-hits.each do |hits|
+hits.each do |hit|
   puts "#{hit.score} - #{hit.title}"
 end
 ```

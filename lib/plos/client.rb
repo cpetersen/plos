@@ -11,9 +11,9 @@ module PLOS
       self.base_url = base_url
     end
 
-    def search(query)
+    def search(query, rows=50, start=0)
       result = []
-      doc = execute( search_url, { :q => query } )
+      doc = execute( search_url, { :q => query, :rows => rows, :start => start } )
       if doc && doc.root
         doc.root.children.each do |child|
           next unless child.name == "result"

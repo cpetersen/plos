@@ -14,6 +14,11 @@ describe PLOS do
       client.search("xenograft", 100, 200)
     end
 
+    it "should call the correct search url when finding all" do
+      RestClient.should_receive(:post).with("http://api.plos.org/search", {:api_key=>"API_KEY", :q=>"*:*", :rows=>50, :start=>0}).and_return("")
+      client.all
+    end
+
     context "A single document" do
       let(:article) {
         xml =<<-END

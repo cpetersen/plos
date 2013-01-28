@@ -11,6 +11,10 @@ module PLOS
       self.base_url = base_url
     end
 
+    def all(rows=50, start=0)
+      search("*:*", rows, start)
+    end
+
     def search(query, rows=50, start=0)
       result = []
       doc = execute( search_url, { :q => query, :rows => rows, :start => start } )

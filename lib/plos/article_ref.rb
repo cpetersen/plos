@@ -41,6 +41,10 @@ module PLOS
       end
     end
 
+    def article
+      @article ||= PLOS::Article.new(article_xml)
+    end
+
     def article_xml
       Nokogiri::XML(RestClient.get(article_url))
     end

@@ -1,3 +1,5 @@
 require "plos/article_ref"
+require "plos/article"
 require "plos/client"
+require "plos/section"
 require "plos/version"

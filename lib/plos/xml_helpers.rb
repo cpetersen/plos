@@ -20,8 +20,18 @@ module PLOS
     end
 
     def tag_value(node,tag_name)
-      child = node.search("//#{tag_name}").first
+      child = node.search("#{tag_name}").first
       child.text if child
+    end
+
+    def nodes_to_hash(nodes, attribute_name)
+      hash = {}
+      nodes.each do |node|
+        key = node.attr(attribute_name)
+        value = node.text
+        hash[key] = value
+      end
+      hash
     end
   end
 end

@@ -16,14 +16,19 @@ module PLOS
     def initialize(node)
       self.id = node.attr("id") if node.attr("id")
       self.label = tag_value(node, "label")
-      citation_node = node.search("//element-citation")
-      self.type = citation_node.attr("publication-type").value if citation_node.attr("publication-type")
-      self.year = tag_value(citation_node, "year")
-      self.title = tag_value(citation_node, "article-title")
-      self.source = tag_value(citation_node, "source")
-      self.volume = tag_value(citation_node, "volume")
-      self.first_page = tag_value(citation_node, "fpage")
-      self.last_page = tag_value(citation_node, "lpage")
+      citation_node = node.search("element-citation")
+      if citation_node
+        self.type = citation_node.attr("publication-type").value if citation_node.attr("publication-type")
+        self.year = tag_value(citation_node, "year")
+        self.title = tag_value(citation_node, "article-title")
+        self.source = tag_value(citation_node, "source")
+        self.volume = tag_value(citation_node, "volume")
+        self.first_page = tag_value(citation_node, "fpage")
+        self.last_page = tag_value(citation_node, "lpage")
+        citation_node.search("name").each do |name_node|
+          self.authors << PLOS::Name.new(name_node)
+        end
+      end
     end
 
     def authors

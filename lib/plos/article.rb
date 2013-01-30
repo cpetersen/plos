@@ -1,5 +1,3 @@
-require "rest_client"
-
 module PLOS
   class Article
     attr_writer :references

@@ -1,7 +1,7 @@
-require "rest_client"
-
 module PLOS
   class Reference
+    include PLOS::XmlHelpers
+
     attr_accessor :id
     attr_accessor :label
     attr_accessor :year
@@ -12,11 +12,6 @@ module PLOS
     attr_accessor :first_page
     attr_accessor :last_page
     attr_writer :authors
-
-    def tag_value(node,tag_name)
-      child = node.search("//#{tag_name}").first
-      child.text if child
-    end
 
     def initialize(node)
       self.id = node.attr("id") if node.attr("id")

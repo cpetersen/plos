@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <!--===== Grouping journal title elements =====-->
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="publisher-id">PONE-D-11-13738</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0028384</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Oncology</subject>
+            <subj-group>
+              <subject>Basic cancer research</subject>
+              <subj-group>
+                <subject>Tumor physiology</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Cancer treatment</subject>
+              <subj-group>
+                <subject>Antiangiogenesis therapy</subject>
+                <subject>Antibody therapy</subject>
+                <subject>Gene therapy</subject>
+                <subject>Hematopoietic growth factors</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Cancers and neoplasms</subject>
+              <subj-group>
+                <subject>Gastrointestinal tumors</subject>
+                <subj-group>
+                  <subject>Colon adenocarcinoma</subject>
+                  <subject>Hepatocellular carcinoma</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Oncology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Assessment of a Novel VEGF Targeted Agent Using Patient-Derived Tumor Tissue Xenograft Models of Colon Carcinoma with Lymphatic and Hepatic Metastases</article-title><alt-title alt-title-type="running-head">PDTT Xenograft Model for Novel Drugs Assessment</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Jin</surname>
+            <given-names>Ketao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Li</surname>
+            <given-names>Guangliang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cui</surname>
+            <given-names>Binbin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Zhang</surname>
+            <given-names>Jing</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Lan</surname>
+            <given-names>Huanrong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Han</surname>
+            <given-names>Na</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Xie</surname>
+            <given-names>Bojian</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Cao</surname>
+            <given-names>Feilin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>He</surname>
+            <given-names>Kuifeng</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Wang</surname>
+            <given-names>Haohao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Xu</surname>
+            <given-names>Zhenzhen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Teng</surname>
+            <given-names>Lisong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" xlink:type="simple">
+          <name name-style="western">
+            <surname>Zhu</surname>
+            <given-names>Tieming</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Department of Surgical Oncology, First Affiliated Hospital, College of Medicine, Zhejiang University, Hangzhou, Zhejiang, China</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Department of Surgery, Affiliated Zhuji Hospital, Wenzhou Medical College, Zhuji, Zhejiang, China</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Department of Surgical Oncology, Taizhou Hospital, Wenzhou Medical College, Taizhou, Zhejiang, China</addr-line>
+      </aff>
+      <aff id="aff4">
+        <label>4</label>
+        <addr-line>Cancer Chemotherapy Center, Zhejiang Provincial Cancer Hospital, Zhejiang University of Traditional and Chinese Medicine, Hangzhou, Zhejiang, China</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>Welm</surname>
+            <given-names>Alana L.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Huntsman Cancer Institute, University of Utah, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email xlink:type="simple">jinketao2001@zju.edu.cn</email> (LT); <email xlink:type="simple">doctm@163.com</email> (TZ)</corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: KJ LT TZ. Performed the experiments: KJ GL JZ HL NH KH. Analyzed the data: BC BX FC. Contributed reagents/materials/analysis tools: HW ZX. Wrote the paper: KJ.</p>
+        </fn>
+        <fn fn-type="conflict">
+          <p>The authors have declared that no competing interests exist.</p>
+        </fn>
+      </author-notes><pub-date pub-type="collection">
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>2</day>
+        <month>12</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>12</issue>
+      <elocation-id>e28384</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>7</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>11</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <!--===== Grouping copyright info into permissions =====-->
+      <permissions>
+        <copyright-year>2011</copyright-year>
+        <copyright-holder>Jin et al</copyright-holder>
+        <license>
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The lack of appropriate tumor models of primary tumors and corresponding metastases that can reliably predict for response to anticancer agents remains a major deficiency in the clinical practice of cancer therapy. It was the aim of our study to establish patient-derived tumor tissue (PDTT) xenograft models of colon carcinoma with lymphatic and hepatic metastases useful for testing of novel molecularly targeted agents. PDTT of primary colon carcinoma, lymphatic and hepatic metastases were used to create xenograft models. Hematoxylin and eosin staining, immunohistochemical staining, genome-wide gene expression analysis, pyrosequencing, qRT-PCR, and western blotting were used to determine the biological stability of the xenografts during serial transplantation compared with the original tumor tissues. Early passages of the PDTT xenograft models of primary colon carcinoma, lymphatic and hepatic metastases revealed a high degree of similarity with the original clinical tumor samples with regard to histology, immunohistochemistry, genes expression, and mutation status as well as mRNA expression. After we have ascertained that these xenografts models retained similar histopathological features and molecular signatures as the original tumors, drug sensitivities of the xenografts to a novel VEGF targeted agent, FP3 was evaluated. In this study, PDTT xenograft models of colon carcinoma with lymphatic and hepatic metastasis have been successfully established. They provide appropriate models for testing of novel molecularly targeted agents.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by the State Key Basic Research and Development Program of China (973 Program, Grant No. 2009CB521704), National High-tech Research &amp; Development Program of China (863 Program, Grant No. 2006AA02A245), National Natural Science Foundation of China (Grant No. 81000894) and Zhejiang Provincial Science and Technology Project (Grant No. 2009C13021). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Animal models have been used in front-line preclinical studies for predicting efficacy and possible toxicities of anticancer drugs in cancer patients <xref ref-type="bibr" rid="pone.0028384-Morton1">[1]</xref>. Advancing a laboratory candidate drug from preclinical testing into testing in phase II clinical trials is based on the assumption that cancer models used in the laboratory are clinically predictive <xref ref-type="bibr" rid="pone.0028384-VoskoglouNomikos1">[2]</xref>. One of the most serious obstacles confronting investigators involved in the development and assessment of new anticancer drugs is the failure of rodent tumor models to predict reliably as to whether a given drug will have prospective anticancer activity with acceptable toxicity when applied to humans. Current tumor models used for drug evaluation generally consist of implantation into immunodeficient mice of xenografts generated from well-established human cancer cell lines that have already adapted to in vitro growth. These models have been used extensively for decades for rapid screening of the anticancer drug efficacy <xref ref-type="bibr" rid="pone.0028384-Johnson1">[3]</xref>, <xref ref-type="bibr" rid="pone.0028384-Sausville1">[4]</xref>. Such models have proven useful for identifying cellular and molecular mechanisms underlying metastasis and for developing new therapeutics. However, limited effectiveness exists, which severely restrains the predictive power of such models assessing the responses of patients' tumors to anticancer drugs in the clinic. The highly anaplastic cancer cells cultivated in vitro represent the extreme derivates from highly advanced cancers and are not associated with original tumor stroma, which now has been recognized as a crucial factor in the pathogenesis of cancer metastasis. In recent years, various groups have initiated the development of more relevant models based on xenografting of primary human tumor tissue in immunodeficient mice. Such patient-derived tumor tissue (PDTT) xenograft models are mainly constructed by introducing advanced tumor cells into the subcutaneous graft site. These xenografts models retain similar morphology, architecture and molecular signatures as the original cancers and thus should be used for rapid screening of potential therapeutics.</p>
+      <p>In recent years, many studies have focused on the heterogeneity found in primary tumors and corresponding metastases with the consideration that evaluation of metastatic rather than primary sites could be of clinical relevance <xref ref-type="bibr" rid="pone.0028384-Jin1">[5]</xref>. Numerous reports have evaluated the heterogeneity in primary tumors and corresponding metastases in a range of solid tumors such as breast cancer <xref ref-type="bibr" rid="pone.0028384-Gong1">[6]</xref>, <xref ref-type="bibr" rid="pone.0028384-Gancberg1">[7]</xref>, <xref ref-type="bibr" rid="pone.0028384-Regitnig1">[8]</xref>, <xref ref-type="bibr" rid="pone.0028384-Bozzetti1">[9]</xref>, <xref ref-type="bibr" rid="pone.0028384-Tanner1">[10]</xref>, <xref ref-type="bibr" rid="pone.0028384-Tapia1">[11]</xref>, <xref ref-type="bibr" rid="pone.0028384-Akcakanat1">[12]</xref>, <xref ref-type="bibr" rid="pone.0028384-Wu1">[13]</xref>, colorectal cancer <xref ref-type="bibr" rid="pone.0028384-Baldus1">[14]</xref>, <xref ref-type="bibr" rid="pone.0028384-Molinari1">[15]</xref>, <xref ref-type="bibr" rid="pone.0028384-Scartozzi1">[16]</xref>, <xref ref-type="bibr" rid="pone.0028384-Scartozzi2">[17]</xref> and non-small cell lung cancer (NSCLC) <xref ref-type="bibr" rid="pone.0028384-Sasatomi1">[18]</xref>, <xref ref-type="bibr" rid="pone.0028384-Park1">[19]</xref>. The main purpose of investigating the heterogeneity found in primary tumors and corresponding metastases is to evaluate the effect of such heterogeneity on the efficacy of anticancer therapy and cancer patients' prognosis. The primary tumor and its corresponding metastases are different at the molecular marker expression or gene status levels and that these differences may affect the clinical outcome of anticancer therapy <xref ref-type="bibr" rid="pone.0028384-Li1">[20]</xref>. Monaco et al. suggested that the <italic>EGFR</italic> and <italic>KRAS</italic> status of primary lung carcinomas might not predict the status in the corresponding metastases. Their observation may have important implications for molecular testing for EGFR-targeted therapies <xref ref-type="bibr" rid="pone.0028384-Monaco1">[21]</xref>. A retrospective study investigated the role of PTEN loss, Akt phosphorylation and <italic>KRAS</italic> mutations in primary colorectal tumors and their corresponding metastases on the activity of cetuximab plus irinotecan <xref ref-type="bibr" rid="pone.0028384-Loupakis1">[22]</xref>. This study gave us direct evidence to reveal that the genetic heterogeneity in primary colorectal tumors and their corresponding metastases have different responses to EGFR-targeted therapy. On these considerations mentioned above, to establish the PDTT xenograft models of primary tumor and corresponding metastases for assessment of the response of both the primary tumor and the metastases to some novel drugs is extremely useful.</p>
+      <p>FP3 (also named as KH902 or KH903) is an engineered protein which contains the extracellular domain 2 of VEGF receptor 1 (Flt-1) and extracellular domain 3 and 4 of VEGF receptor 2 (Flk-1, KDR) fused to the Fc portion of human immunoglobulin G1 <xref ref-type="bibr" rid="pone.0028384-Teng1">[23]</xref>, <xref ref-type="bibr" rid="pone.0028384-Jin2">[24]</xref>. Previous studies indicated that FP3 had promise as a local antiangiogenic treatment of human CNV (choroidal neovascularization) -related AMD (age-related macular degeneration) <xref ref-type="bibr" rid="pone.0028384-Teng1">[23]</xref>, <xref ref-type="bibr" rid="pone.0028384-Zhang1">[25]</xref>, <xref ref-type="bibr" rid="pone.0028384-Zhang2">[26]</xref>, <xref ref-type="bibr" rid="pone.0028384-Zhang3">[27]</xref>. In subsequent studies, it was demonstrated that FP3 has an inhibitory efficacy in VEGF-mediated proliferation and migration of human umbilical vein endothelial cells, and in VEGF-mediated vessel sprouting of rat aortic ring <italic>in vitro</italic> <xref ref-type="bibr" rid="pone.0028384-Jin2">[24]</xref>. It was also demonstrated that FP3 has an antitumor effect in a NSCLC cell line (A549) xenograft model <xref ref-type="bibr" rid="pone.0028384-Jin2">[24]</xref> and a PDTT xenograft model of gastric carcinoma <xref ref-type="bibr" rid="pone.0028384-Jin3">[28]</xref> in nude mice.</p>
+      <p>It was the aim of our study to establish PDTT xenograft models of colon carcinoma with lymphatic and hepatic metastasis useful for testing of a novel molecularly targeted agent, FP3.</p>
+    </sec>
+    <sec id="s2" sec-type="materials|methods">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Reagents and drugs</title>
+        <p>Anti-Akt, anti-ERK, anti-MAPK and anti-mTOR antibodies, and phosphorylation-specific antibodies against Akt (Ser<sup>308</sup> and Ser<sup>473</sup>), ERK (Thr<sup>202</sup>/Tyr<sup>204</sup>), MAPK (Thr<sup>180</sup>/Tyr<sup>182</sup>) and mTOR (Ser<sup>2448</sup>) were purchased from Cell Signaling Technology Inc. (Cell Signaling, Beverly, MA). The antibodies against cleaved-caspase-3, VEGFR-2, and PCNA were purchased from Cell Signaling Technology Inc. (Cell Signaling, Beverly, MA). The antibodies against CK-20 (human-specific) and CDX-2 (human-specific) were purchased from DAKO (Carpinteria, CA). The antibodies against VEGF (human-specific) and EGFR were purchased from Epitomics Inc. (Burlingame, CA). The antibody against platelet endothelial cell adhesion molecule-1 (PECAM-1, CD31) (rat monoclonal, clone MEC 13.3) was purchased from BD Pharmingen (San Diego, CA). The antibody against α-smooth muscle actin (α-SMA, rabbit polyclonal) was purchased from Abcam (Cambridge, UK). Fluorescent (Cy3- or FITC-conjuncted) secondary antibodies (goat anti-rat or anti-rabbit) were purchased from Jackson ImmunoResearch (West Grove, PA). The antibody against GAPDH was purchased from Santa Cruz Biotechnology, Inc. (Santa Cruz, CA). Horseradish peroxidase-conjugated secondary antibodies were purchased from Santa Cruz Biotechnology, Inc. (Santa Cruz, CA). Chemiluminescent detection system was purchased from Amersham Pharmacia Biotech (Arlington Heights, IL). RPMI 1640 medium, fetal bovine serum (FBS), penicillin, and streptomycin were purchased from Gibco (Grand Island, NY, USA). Isofluorane, diethyl ether, ketamine, and xylazine were purchased from Sigma (St. Louis, MO, USA). Bevacizumab (Avastin) was purchased from Roche, Inc. (Roche, USA). FP3 was kindly provided as a gift from Kanghong, Biotechnology Inc. (Konghong, Chengdu, China).</p>
+      </sec>
+      <sec id="s2b">
+        <title>Patient and tissue samples</title>
+        <p>Tumor specimens were obtained at initial surgery from a 40-year-old female colon carcinoma patient with lymphatic and hepatic metastases. Prior written informed consent was obtained from the patient and the study received ethics board approval at First Affiliated Hospital, College of Medicine, Zhejiang University. The patient had not received chemotherapy or radiation therapy before surgery. The histological type was determined according to WHO criteria. The tumor was diagnosed as mucinous adenocarcinoma (T3N2M1). The tumor samples of colon carcinoma with lymphatic and hepatic metastases were put into medium immediately after surgical resection under sterile conditions and transported without delay to the animal facility.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Establishment of xenografts</title>
+        <p>Four- to six-week-old female BALB/c nude mice purchased from Slaccas (Slaccas Laboratory Animal, Shanghai, China) were housed in a barrier facility and acclimated to 12-h light-dark cycles for at least three days before use. The use of experimental animals adhered to the “Principles of Laboratory Animal Care” (NIH publication #85-23, revised in 1985). All experiments were approved by the Institutional Animal Care and Use Committee of Zhejiang University (approval ID: SYXK(ZHE)2005-0072). The method to establish the PDTT xenograft models of human colon carcinoma with lymphatic and hepatic metastases were followed as described previously <xref ref-type="bibr" rid="pone.0028384-Jin1">[5]</xref>, <xref ref-type="bibr" rid="pone.0028384-Jin3">[28]</xref>, <xref ref-type="bibr" rid="pone.0028384-Jin4">[29]</xref>, <xref ref-type="bibr" rid="pone.0028384-Jin5">[30]</xref>. Briefly, tumors were placed in RPMI 1640 medium supplemented with 20% FBS and 0.05% penicillin/streptomycin solution in an ice bath in the surgical site. Tumors were then transferred to a sterile Petri dish containing RPMI 1640 medium with supplements mentioned above. Thin slices of tumor were diced into 2×2×3 mm<sup>3</sup> pieces and washed thrice with RPMI 1640 with supplements mentioned above. Under anesthesia with isofluorane, tumors were implanted into 4- to 6-week-old female athymic nude mice by a small incision and subcutaneous pocket made in one side of the lower back in which one tumor piece is deposited in the pocket. While the pocket was still open, one drop of 100× penicillin/streptomycin solution was placed into the opening. Half of the rest of the tumors was cryopreserved in liquid nitrogen and the other half was immediately snap-frozen and stored at −80°C and processed for biological studies, such as genetic, genomic, mRNA expression and protein expression analyses. For each tumor, twenty mice were used. Growth of established tumor xenografts was monitored at least twice weekly by vernier caliper measurement of the length (a) and width (b) of tumor. Tumor volumes was calculated as (a×b<sup>2</sup>)/2. For the first week following implantation, a small bump would be visible where the tumor was inserted. At 14 to 22 weeks following implantation, a tumor began to appear at the site of implantation with 1000 to 1500 mm<sup>3</sup> in volume. At a size of about 1500 mm<sup>3</sup>, tumors were removed for serial transplantation. Tumor-bearing animals were anesthetized with diethyl ether and sacrificed by cervical dislocation. Animals were placed immediately in an ice water bath for 2 minutes. The mice were then placed in 75% ethanol for 2 minutes, and transferred to a laminar flow hood for dissection. Tumors were minced under sterile conditions and implanted in successive nude mice as described above. Tumors were passaged no more than 10 times. Following transplantation, tumors were allowed to grow to 200 to 500 mm<sup>3</sup> before initiation of treatment for drug evaluation. Numerous samples from early passages were stored in the tissue bank and cryopreserved in liquid nitrogen, and used for further experiments.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Treatment protocol</title>
+        <p>Xenografts from this second mouse-to-mouse passage (the third generation, G3) were allowed to grow to a size of 200 mm<sup>3</sup>, at which time mice were randomized in the following three groups of treatment, with 10 mice in each group: (a) control (100 µl saline); (b) FP3, 15 mg/kg, i.v., twice per week; (c) Avastin (bevacizumab), 10 mg/kg, i.v., twice per week. Mice were treated during 21 days, monitored twice per week for signs of toxicity, and were weighed once a week. Tumor size was evaluated twice a week by caliper measurements using the following formula: tumor volume = (length×width<sup>2</sup>)/2. Relative tumor growth inhibition (TGI) was calculated by relative tumor growth of treated mice divided by relative tumor growth of control mice (T/C). Experiments were terminated on day 30.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Histology and immunohistochemistry</title>
+        <p>Selected tumor specimen were fixed in 10% neutral-buffered formalin and embedded in paraffin. Five-micrometer sections were cut, dewaxed, and then rehydrated and stained with hematoxylin and eosin (H&amp;E) as described previously <xref ref-type="bibr" rid="pone.0028384-Huynh1">[31]</xref>, <xref ref-type="bibr" rid="pone.0028384-Wang1">[32]</xref>.</p>
+        <p>For immunohistochemical staining, five micromolar sections were cut, dewaxed, rehydrated, and subjected to antigen retrieval. After blocking endogenous peroxidase activity, the sections were incubated with the primary antibodies against CK-20 (1∶100), CDX-2 (1∶100), EGFR (1∶100), VEGF (1∶100) and PCNA (1∶100) (overnight at 4°C). Immunohistochemistry was performed using the streptavidin-biotin peroxidase complex method (Lab Vision, Fremont, CA). The slides were examined and pictures were taken using an Olympus BX60 (Olympus, Japan). Sections known to stain positively were incubated in each batch and negative controls were also prepared by replacing the primary antibody with preimmune sera.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Fluorescent immunohistochemistry</title>
+        <p>Selected mice with similar tumor size were anesthetized with ketamine (87 mg/kg) plus xylazine (13 mg/kg) injected intramuscularly. The chest was opened rapidly, and the vasculature was perfused for 3 minutes at a pressure of 120 mmHg with fixative [4% paraformaldehyde in 0.1 mol/L phosphate-buffered saline (PBS), pH 7.4] from an 18-gauge cannula inserted into the aorta via an incision in the left ventricle. Blood and fixative exited through an opening in the right atrium. After the perfusion, the implanted tumor was removed and placed into fixative for 2 hours at 4°C. Specimens were then rinsed several times with PBS, infiltrated overnight with 30% sucrose, embedded in OCT medium and frozen for cryostat sectioning <xref ref-type="bibr" rid="pone.0028384-Mancuso1">[33]</xref>. Cryostat sections 8 to 10 µm in thickness were brought to room temperature, air dried overnight, then fixed in acetone for 10 min. Slides were allowed to air dry for 30 min and were washed three times for 5 min each in PBS. Samples were then incubated in 5% BSA in PBS for 30 min at room temperature to block nonspecific antibody binding. Next, the sections were incubated with two primary antibodies (CD31, 1∶100; and α-SMA, 1∶200) or VEGFR-2 (1∶150) overnight at room temperature in humidified chambers diluted in PBS. After several rinses with PBS, specimens were incubated for 1 hour at room temperature with fluorescent (Cy3- or FITC-conjuncted) secondary antibodies (goat anti-rat or goat anti-rabbit) diluted (1∶200) in PBS. Specimens were rinsed again with PBS, and mounted in Vectashield (Vector Laboratories, Burlingame, CA) <xref ref-type="bibr" rid="pone.0028384-Morikawa1">[34]</xref>, <xref ref-type="bibr" rid="pone.0028384-Baluk1">[35]</xref>. Tissue sections were examined and digitally photographed using a Zeiss Axiophot fluorescence microscope (Carl Zeiss, Thornwood, NY) equipped with single, dual, and triple fluorescence filters and a low-light, externally cooled, three-chip charge-coupled device (CCD) camera (480×640 pixel RGB-color images, CoolCam; SciMeasure Analytical Systems, Atlanta, GA) and saved as TIFF files.</p>
+      </sec>
+      <sec id="s2g">
+        <title>Genome-wide gene expression analysis</title>
+        <p>RNA was extracted from tumor specimens and from 2×2×2 mm<sup>3</sup> tumor xenograft samples (derived from different passages ranging from 1 to 3), which were taken from sacrificed animals. Samples were snap-frozen and stored in liquid nitrogen until use. Total RNA of homogenized tumor samples was prepared with Trizol RNA extraction reagent (Invitrogen) followed by purification using the RNeasy Mini Kit (Qiagen) according to the manufacturer's recommendations. A DNase I (Qiagen) digestion step was included to eliminate genomic DNA. The quality of the total RNA was checked for integrity using RNA LabChips on the Agilent Bioanalyzer 2100 (Agilent Technologies) and the concentration was measured on the Peqlab NanoDrop. Only RNA with a RNA integrity number larger than 6.5 was used for cDNA synthesis. The one-cycle eukaryotic target labeling assay from Affymetrix was used according to manufacturer's instructions and as previously described <xref ref-type="bibr" rid="pone.0028384-Fichtner1">[36]</xref>. Data analysis was performed as previously described <xref ref-type="bibr" rid="pone.0028384-Fichtner1">[36]</xref>.</p>
+      </sec>
+      <sec id="s2h">
+        <title>DNA extraction and mutation analysis</title>
+        <p>DNA was extracted from paraffin-embedded samples of colon carcinoma with lymphatic and hepatic metastases. For every tumor tissue, 10-µm sections were prepared, and an additional representative 2-µm section was deparaffinised, stained with haematoxylin and eosin, and analysed for detailed morphology. Regions of tumor tissue were marked, and this tissue was extracted with 0.2 M sodium hydroxide in 1 mM edetic acid and neutralised with 100 mM TRIS-TE (pH 6.5). After extraction, DNA was purified with Qiagen PCR purification kit (Qiagen, Hilden, Germany). <italic>KRAS</italic> gene in exon 1 was analysed at codons 12 and 13 with pyrosequencing using a previously described assay which has been shown to be of greater sensitivity <xref ref-type="bibr" rid="pone.0028384-Ogino1">[37]</xref>. <italic>BRAF</italic> gene in exon 15 at codon 600 and <italic>PIK3CA</italic> gene in exon 9 at codons 539, 542, 545 and 546 and exon 20 at codons 1043, 1044, 1047 and 1049 were analysed with pyrosequencing as previously described <xref ref-type="bibr" rid="pone.0028384-Baldus1">[14]</xref>.</p>
+      </sec>
+      <sec id="s2i">
+        <title>qRT-PCR</title>
+        <p>Total RNA was extracted from frozen tissues using TRIzol reagent according to the protocol provided by the manufacturer (Invitrogen, Carlsbad, CA). Total RNA was reverse-transcribed into single-strand complementary DNA (cDNA) using moloney-murine leukemia virus (M-MLV) reverse transcriptase (Promega, Madison, WI). Briefly, the RNA was denatured by heating for 5 min at 70°C, followed by rapid cooling on ice, and then used for reverse transcription (2 µg of total RNA, 25 U of RNase inhibitor, 0.5 mmol/L of each dNTP, 1.5 µmol/L reverse primer and 200 U of M-MLV reverse transcriptase in a total volume of 25 µl). For reverse transcription, tubes were incubated at 42°C for 60 min. The expression of a randomly selected set of genes, including dehydropyrimidine deshydrogenase (<italic>DPD</italic>), nucleotide excision repair-1 (<italic>ERCC-1</italic>), and thymidylate synthase (<italic>TS</italic>) in tissues in original tumors (G0) and tumors from the third generation (G3) was analyzed using a fluorescence-based real-time detection method (ABI PRISM 7700 Sequence Detection System [TaqMan]; Perkin-Elmer Applied Biosystems) as previously described <xref ref-type="bibr" rid="pone.0028384-Gibson1">[38]</xref>, <xref ref-type="bibr" rid="pone.0028384-Schneider1">[39]</xref>. Specific primer pairs and probes are listed in <xref ref-type="table" rid="pone-0028384-t001"><bold>Table 1</bold></xref>. The <italic>β</italic>-actin gene was used as an endogenous control for normalization. The qRT-PCR reaction was carried out in triplicate for each sample. The 25 µl PCR mixture was consisted of 1 µl of cDNA template, 1 µl each of sense and anti-sense primers, 0.75 µl of 5′ FAM- and 3′ TAMARA-labeled oligonucleotide probe, 2 µl of dNTP mixture, 5 µl of 5× reaction buffer, and 0.125 µl of Taq DNA polymerase. Cycling conditions were 50°C for 2 minutes, and 95°C for 10 minutes, followed by 46 cycles at 95°C for 15 seconds and 60°C for 1 minute.</p>
+        <table-wrap id="pone-0028384-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0028384.t001</object-id><label>Table 1</label><caption>
+            <title>Sequences of primers and probes for qRT-PCR.</title>
+          </caption><!--===== Grouping alternate versions of objects =====--><alternatives><graphic id="pone-0028384-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.t001" xlink:type="simple"/><table>
+            <colgroup span="1">
+              <col align="left" span="1"/>
+              <col align="center" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <td align="left" colspan="2" rowspan="1">Primer and probe sequences</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" colspan="2" rowspan="1">
+                  <bold>DPD</bold>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Forward primer</td>
+                <td align="left" colspan="1" rowspan="1">
+                  <named-content content-type="gene" xlink:type="simple">5′- AGGACGCAAGGAGGGTTTG -3′</named-content>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Reverse primer</td>
+                <td align="left" colspan="1" rowspan="1">
+                  <named-content content-type="gene" xlink:type="simple">5′- GTCCGCCGAGTCCTTACTGA -3′</named-content>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Probe</td>
+                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5′- CAGTGCCTACAGTCTCGAGTCTGCCAGTG -3′</named-content>-TAMRA</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="2" rowspan="1">
+                  <bold>ERCC1</bold>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Forward primer</td>
+                <td align="left" colspan="1" rowspan="1">
+                  <named-content content-type="gene" xlink:type="simple">5′-GGGAATTTGGCGACGTAATTC-3′</named-content>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Reverse primer</td>
+                <td align="left" colspan="1" rowspan="1">
+                  <named-content content-type="gene" xlink:type="simple">5′-GCGGAGGCTGAGGAACAG-3′</named-content>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Probe</td>
+                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5′- CACAGGTGCTCTGGCCCAGCACATA -3′</named-content>-TAMRA</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="2" rowspan="1">
+                  <bold>TS</bold>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Forward primer</td>
+                <td align="left" colspan="1" rowspan="1">
+                  <named-content content-type="gene" xlink:type="simple">5′-GCCTCGGTGTGCCTTTCA-3′</named-content>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Reverse primer</td>
+                <td align="left" colspan="1" rowspan="1">
+                  <named-content content-type="gene" xlink:type="simple">5′-GGCTCGATGTGATTCAGGTAAATAT-3′</named-content>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Probe</td>
+                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5′-CACGGGCCTGAAGCCAGGTGACTTTATA-3′</named-content>-TAMRA</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="2" rowspan="1">
+                  <bold>
+                    <italic>β</italic>
+                  </bold>
+                  <bold>-actin</bold>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Forward primer</td>
+                <td align="left" colspan="1" rowspan="1">
+                  <named-content content-type="gene" xlink:type="simple">5′-TGAGCGCGGCTACAGCTT-3′</named-content>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Reverse primer</td>
+                <td align="left" colspan="1" rowspan="1">
+                  <named-content content-type="gene" xlink:type="simple">5′-TCCTTAATGTCACGCACGATTT-3′</named-content>
+                </td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Probe</td>
+                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5′-ACCACCACGGCCGAGCGG-3′</named-content>-TAMRA</td>
+              </tr>
+            </tbody>
+          </table></alternatives></table-wrap>
+      </sec>
+      <sec id="s2j">
+        <title>Western blotting</title>
+        <p>Protein expression profiles were analyzed by western blotting as previously described <xref ref-type="bibr" rid="pone.0028384-Huynh1">[31]</xref>, <xref ref-type="bibr" rid="pone.0028384-RubioViqueira1">[40]</xref>, <xref ref-type="bibr" rid="pone.0028384-PerezSoler1">[41]</xref>. Briefly, lysates for immunoblotting were prepared by adding lysis buffer [50 mM Tris-HCl (pH 7.4), 1% Nonidet P-40, 0.5% sodium deoxycholate, 150 mM NaCl, 0.02% sodium azide, and 0.1% SDS] containing protease and phosphatase inhibitors (Sigma, St. Louis, MO) to the tumor tissue homogenized in fluid nitrogen. After centrifugation at 15,000 rpm at 4°C for 10 min, the supernatants were collected, and the protein concentration was determined using Bio-Rad Protein Assay Kit (Bio-Rad, Hercules, CA). Protein extracts of tumor lysates (30 µg) were added to a loading buffer [10 mmol/L Tris-HCl (pH 6.8), 1% SDS, 25% glycerol, 0.1 mmol/L mercaptoethanol, and 0.03% bromophenol blue], boiled, and separated on 8% to 12% (w/v) polyacrylamide gels in the presence of SDS. Molecular weights of the immunoreactive proteins were estimated based on the relative migration with colored molecular weight protein markers (Amersham Pharmacia Biotech, Piscataway, NJ). After electrophoresis, the protein blots were electro-transferred to PVDF membranes (Millipore, Billerica, MA). Then, the membranes were blocked at room temperature with 5% nonfat milk in TBS [10 mmol/L Tris-HCl (pH 7.5), 0.5 mol/L NaCl, and 0.05% (v/v) Tween 20] buffer for 1 h. The primary antibodies were diluted at 1∶1,000 and the membranes were incubated with primary antibodies overnight at 4°C. The antibodies tested were anti-Akt, anti-ERK, anti-MAPK, anti-mTOR antibodies, anti-EGFR, anti-VEGF, anti-cleaved-caspase-3, anti-PCNA, and phosphorylation-specific antibodies against Akt (Ser<sup>308</sup> and Ser<sup>473</sup>), ERK (Thr<sup>202</sup>/Tyr<sup>204</sup>), MAPK (Thr<sup>180</sup>/Tyr<sup>182</sup>) and mTOR (Ser<sup>2448</sup>). The next day, the membranes were washed and incubated for 1 h at room temperature with rabbit immunoglobulin G-horseradish peroxidase-conjugated secondary antibodies (Santa Cruz Biotechnology), at a final dilution of 1∶5,000. After washing thrice with TBS, antibody binding was visualized using enhanced chemiluminescence detection system (SuperSignal West Pico, Pierce) as described by the manufacturer and autoradiography. To show equal protein loading, the blots were stripped and reprobed for GAPDH.</p>
+      </sec>
+      <sec id="s2k">
+        <title>Statistical analysis</title>
+        <p>Hierarchical clustering of all microarray experiments was done based on all probe sets (54,675 probe sets) represented on the HGU133Plus2.0 array (Affymetrix) with a quality <italic>p</italic>&lt;0.04 using positive correlation and complete linkage. Gene expression of primary tumors was compared with the median arrays of replicate tumors from each xenograft model in a paired <italic>t</italic> test. Drug sensitivity data are presented as mean ± SEM and analyzed by SPSS 16.0 software. Difference among mean of the groups is determined with one-way ANOVA. Comparison is considered to be statistically significant if <italic>p</italic>&lt;0.05.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>Patient-derived tumor tissues of colon carcinoma and its corresponding lymphatic and hepatic metastases can be implanted efficiently into nude mice</title>
+        <p>To test whether patient-derived tumor tissues of primary colon carcinoma and its corresponding lymphatic and hepatic metastases can be engrafted in nude mice, we implanted small pieces of freshly tumor tissue into female athymic nude mice subcutaneously. After two to five months, tumors began to appear at the site of implantation with 1000 to 1500 mm<sup>3</sup> in volume, and xenografts were harvested for serial transplantation. The tumor-bearing rate and tumor growth rate of different generations of PDTT xenografts of primary colon carcinoma and its corresponding lymphatic and hepatic metastases were illustrated in <xref ref-type="table" rid="pone-0028384-t002"><bold>Table 2</bold></xref>.</p>
+        <table-wrap id="pone-0028384-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0028384.t002</object-id><label>Table 2</label><caption>
+            <title>Tumor-bearing rate and tumor growth rate of the PDTT xenograft models.</title>
+          </caption><!--===== Grouping alternate versions of objects =====--><alternatives><graphic id="pone-0028384-t002-2" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.t002" xlink:type="simple"/><table>
+            <colgroup span="1">
+              <col align="left" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <td align="left" colspan="4" rowspan="1">Tumor-bearing rate</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1"/>
+                <td align="left" colspan="1" rowspan="1">G1 (n = 20)</td>
+                <td align="left" colspan="1" rowspan="1">G2 (n = 20)</td>
+                <td align="left" colspan="1" rowspan="1">G3 (n = 20)</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Primary colon carcinoma</td>
+                <td align="left" colspan="1" rowspan="1">60%</td>
+                <td align="left" colspan="1" rowspan="1">80%</td>
+                <td align="left" colspan="1" rowspan="1">100%</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Colon carcinoma lymphatic metastasis</td>
+                <td align="left" colspan="1" rowspan="1">60%</td>
+                <td align="left" colspan="1" rowspan="1">80%</td>
+                <td align="left" colspan="1" rowspan="1">100%</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Colon carcinoma hepatic metastasis</td>
+                <td align="left" colspan="1" rowspan="1">80%</td>
+                <td align="left" colspan="1" rowspan="1">100%</td>
+                <td align="left" colspan="1" rowspan="1">100%</td>
+              </tr>
+            </tbody>
+          </table><table>
+            <colgroup span="1">
+              <col align="left" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <td align="left" colspan="4" rowspan="1">Tumor growth rate <xref ref-type="table-fn" rid="nt102">a</xref></td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1"/>
+                <td align="left" colspan="1" rowspan="1">G1 (n = 10)</td>
+                <td align="left" colspan="1" rowspan="1">G2 (n = 10)</td>
+                <td align="left" colspan="1" rowspan="1">G3 (n = 10)</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Primary colon carcinoma</td>
+                <td align="left" colspan="1" rowspan="1">141±22.3 ds</td>
+                <td align="left" colspan="1" rowspan="1">93±11.0 ds</td>
+                <td align="left" colspan="1" rowspan="1">34±8.6 ds</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Colon carcinoma lymphatic metastasis</td>
+                <td align="left" colspan="1" rowspan="1">111±23.6 ds</td>
+                <td align="left" colspan="1" rowspan="1">67±10.3 ds</td>
+                <td align="left" colspan="1" rowspan="1">30±7.2 ds</td>
+              </tr>
+              <tr>
+                <td align="left" colspan="1" rowspan="1">Colon carcinoma hepatic metastasis</td>
+                <td align="left" colspan="1" rowspan="1">83±13.2ds</td>
+                <td align="left" colspan="1" rowspan="1">46±8.1 ds</td>
+                <td align="left" colspan="1" rowspan="1">25±6.5 ds</td>
+              </tr>
+            </tbody>
+          </table></alternatives><table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>Note:</p>
+            </fn>
+            <fn id="nt102">
+              <label>a</label>
+              <p>measured when tumor volume arrived 1000 mm<sup>3</sup>; G1, the first generation of xenograft; G2, the second generation of xenograft; G3, the third generation of xenograft; ds, days.</p>
+            </fn>
+          </table-wrap-foot></table-wrap>
+      </sec>
+      <sec id="s3b">
+        <title>Histological and molecular characterization of xenografts and comparison with original tumors</title>
+        <p>Using PDTT xenografts as models for preclinical anticancer drug development is based on the assumption that the xenografts would closely resemble the corresponding original tumors. For this purpose, H&amp;E staining, immunohistochemical staining, genome-wide gene expression analysis, pyrosequencing, qRT-PCR and western blotting were used to determine the biological stability of the xenograft during serial transplantation compared with the original tumor tissues. In this study, CK-20 and CDX-2 were used as markers for determining the lymphatic and hepatic metastases with a colon carcinoma primary. Immunohistochemical staining showed a positive expression of CK-20 and CDX-2 in the metastases (<xref ref-type="fig" rid="pone-0028384-g001"><bold>Fig. 1</bold></xref>), which ascertained lymphatic and hepatic metastases with an epithelial origin. Histological examination of the H&amp;E sections showed that the PDTT xenografts were adenocarcinoma with features similar to the original surgical specimens. <xref ref-type="fig" rid="pone-0028384-g002"><bold>Fig. 2</bold></xref> shows the morphology of the original tumors (G0) of primary colon carcinoma with lymphatic and hepatic metastases and their third generation (G3) implants in nude mice. There were no significant morphological differences between the tumor resected from the patient and the initial successful implants. The explanted tumor pieces also showed similar VEGF and EGFR expressions compared to the corresponding original tumors (<xref ref-type="fig" rid="pone-0028384-g003"><bold>Fig. 3</bold></xref><bold>,</bold><xref ref-type="fig" rid="pone-0028384-g004"><bold>4</bold></xref>).</p>
+        <fig id="pone-0028384-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Expression of CDX-2 and CK-20 in the tumor tissues of lymphatic (A and B) and hepatic metastasis (C and D).</title>
+            <p>Original magnifications, ×200.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g001" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Representative H&amp;E stained tissues of primary colon carcinoma (A and B) and its corresponding lymphatic (C and D) and hepatic (E and F) metastases and their early-generation of xenograft tumors.</title>
+            <p>G0, the primary tumors; G3, the third generation of xenografts. Original magnifications, ×100.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g002" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>VEGF immunohistochemical staining of primary tumor tissues of primary colon carcinoma (A and B) and its corresponding lymphatic (C and D) and hepatic (E and F) metastases and their early-generation xenograft tumor tissues.</title>
+            <p>G0, the primary tumors; G3, the third generation of xenografts. Original magnifications, ×100.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g003" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>EGFR immunohistochemical staining of primary tumor tissues of primary colon carcinoma (A and B) and its corresponding lymphatic (C and D) and hepatic (E and F) metastases and their early-generation xenograft tumor tissues.</title>
+            <p>G0, the primary tumors; G3, the third generation of xenografts. Original magnifications, ×100.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g004" xlink:type="simple"/>
+        </fig>
+        <p>When using the PDTT xenograft models for testing of the anticancer agents, especially molecularly targeted agents, detailed characterization of the molecules is indispensable. For this purpose, GeneChip HGU133Plus2.0 expression arrays (Affymetrix) was used to determine the status of the genome-wide gene expression of the xenograft models, pyrosequencing was used to determine the mutation status of some selected genes of the xenograft models, qRT-PCR was used to determine the status of some randomized selected genes of the xenograft models, western blotting was used to determine the expression of some randomized selected signaling pathway proteins of the xenograft models during serial transplantation compared with the original tumor tissues. Our results showed that early passages of the PDTT xenograft models of primary colon carcinoma with lymphatic and hepatic metastases revealed a high degree of similarity with the original clinical tumor samples with regard to <italic>KRAS</italic>, <italic>BRAF</italic>, <italic>EGFR</italic>, and <italic>PIK3CA</italic> mutation status (<bold>see <xref ref-type="supplementary-material" rid="pone.0028384.s001">Fig. S1</xref>, <xref ref-type="supplementary-material" rid="pone.0028384.s002">S2</xref>, <xref ref-type="supplementary-material" rid="pone.0028384.s003">S3</xref>, <xref ref-type="supplementary-material" rid="pone.0028384.s004">S4</xref></bold>) as well as mRNA expression (data not shown). With regards to the western blotting analysis of ‘randomized selected signaling proteins’, early passages of the PDTT xenograft models of colon carcinoma lymphatic and hepatic metastases revealed a high degree of similarity with the original clinical tumor samples though these phenomena did not exist between original clinical tumor sample of primary colon cancer and its xenografts (<xref ref-type="fig" rid="pone-0028384-g005"><bold>Fig. 5</bold></xref>). Based on the results of genome-wide gene expression analysis, we calculated the correlation coefficient between primary cancer and the xenograft derived thereof. The correlation coefficient ranged between 0.988 and 0.991 (0.991 between primary colon carcinoma and its xenograft, 0.989 between lymphatic metastasis and its xenograft, and 0.988 between hepatic metastasis and its xenograft) indicating a high degree of similarity between the primary cancer and the corresponding xenograft model. A paired <italic>t</italic> test between the primary tumors and xenografts revealed limited differentially expressed probe sets. Clustering based on these probe sets showed a limited distinction between primary tumors and xenografts (<bold><xref ref-type="supplementary-material" rid="pone.0028384.s005">Table S1</xref>, <xref ref-type="supplementary-material" rid="pone.0028384.s006">S2</xref>, <xref ref-type="supplementary-material" rid="pone.0028384.s007">S3</xref>, </bold><xref ref-type="fig" rid="pone-0028384-g006"><bold>Fig. 6</bold></xref>).</p>
+        <fig id="pone-0028384-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Exemplified immunoblotting data of the proteins Akt, pAkt (Ser<sup>308</sup> and Ser<sup>473</sup>), ERK, pERK (Thr<sup>202</sup>/Tyr<sup>204</sup>), MAPK, pMAPK (Thr<sup>180</sup>/Tyr<sup>182</sup>), mTOR, pmTOR (Ser<sup>2448</sup>), EGFR, VEGF, Casepase-3, PCNA and GAPDH (as loading control) of primary colon carcinoma and its corresponding lymphatic and hepatic metastases and their early-generation xenograft tumor tissues.</title>
+            <p>G0, the primary tumors; G3, the third generation of xenografts.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g005" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Gene expression profiling of patient-derived tumor tissues and corresponding xenografts.</title>
+            <p>A, hierarchical clustering based on 140 probe sets differentially expressed between primary colon carcinoma and its xenograft. B, hierarchical clustering based on 70 probe sets differentially expressed between colon carcinoma lymphatic metastasis and its xenograft. C, hierarchical clustering based on 145 probe sets differentially expressed between colon carcinoma hepatic metastasis and its xenograft. PCT, primary colon carcinoma. PCT Xe, primary colon carcinoma xenograft. Lym, colon carcinoma lymphatic metastasis. Lym Xe, colon carcinoma lymphatic metastasis xenograft. Hep, colon carcinoma hepatic metastasis. Hep Xe, colon carcinoma hepatic metastasis xenograft.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g006" xlink:type="simple"/>
+        </fig>
+      </sec>
+      <sec id="s3c">
+        <title>PDTT xenograft models of colon carcinoma and its corresponding lymphatic and hepatic metastases for assessment of a novel VEGF targeted agent</title>
+        <p>Our results indicated that during sequential passage, the PDTT xenograft models retained their similarity to the corresponding original tumors in morphology, architecture and molecular signatures thus could be used for rapid screening of potential therapeutics. To improve confidence of a novel VEGF blocker during its early preclinical studies allowing for a faster decision is one of purposes of using these xenograft models. To explore the value of FP3 as an antitumor therapeutic and to compare it to other effective agents targeting the VEGF pathway, we evaluated its ability to block the growth of these xenograft models.</p>
+        <p>After implantation, tumors were allowed to grow for 10 days, forming large retroperitoneal tumors &gt;100 mm<sup>3</sup>. Injections of FP3 (15 mg/kg body weight), Avastin (10 mg/kg body weight) or saline were then given i.v. twice per week for 21 days, after which the animals were killed and tumors excised and measured. No body weight-related toxicity was found in each group. FP3 significantly inhibited the growth of xenografts of primary colon carcinoma and its lymphatic and hepatic metastases in nude mice (<xref ref-type="fig" rid="pone-0028384-g007"><bold>Fig. 7</bold></xref>), and resembled the well-defined and generally accepted antitumor activity of Avastin <xref ref-type="bibr" rid="pone.0028384-Teng2">[42]</xref>.</p>
+        <fig id="pone-0028384-g007" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>Response curve of FP3 and Avastin in the PDTT xenograft models of primary colon carcinoma (A), lymphatic metastasis (B), and hepatic metastasis (C).</title>
+            <p>Ten mice per group were treated with the corresponding agent according to <xref ref-type="sec" rid="s2">Materials and Methods</xref>. Data shown are means ± SEM. The differences between control tumor volumes, FP3-treated, and Avastin-treated tumor volumes were analyzed by using one-way ANOVA. <sup>***</sup> <italic>p</italic>&lt;0.001, versus control. Experiments were repeated at least two times with similar results.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g007" xlink:type="simple"/>
+        </fig>
+        <p>To evaluate the effects of FP3 on tumor-associated angiogenesis, selected tumors from the above studies were sectioned and immunostained with antibodies to CD31 and α-SMA, so that the vasculature could be visualized (<xref ref-type="fig" rid="pone-0028384-g008"><bold>Fig. 8</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g009"><bold>9</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g010"><bold>10</bold></xref>). This analysis revealed that vasculature was nearly absent in FP3-treated xenografts. FP3 (treatment for 21 days) almost completely blocked tumor-associated angiogenesis, with the stunted tumors being largely avascular (<xref ref-type="fig" rid="pone-0028384-g008"><bold>Fig. 8: B, E, and H</bold></xref><bold>; </bold><xref ref-type="fig" rid="pone-0028384-g009"><bold>Fig. 9: B, E, and H</bold></xref><bold>; </bold><xref ref-type="fig" rid="pone-0028384-g010"><bold>Fig. 10: B, E, and H</bold></xref>). In contrast to the FP3-treated tumors, control tumors in saline-treated mice not only were much larger but also had a very high vascular density (<xref ref-type="fig" rid="pone-0028384-g008"><bold>Fig. 8: A, D, and G</bold></xref><bold>; </bold><xref ref-type="fig" rid="pone-0028384-g009"><bold>Fig. 9: A, D, and G</bold></xref><bold>; </bold><xref ref-type="fig" rid="pone-0028384-g010"><bold>Fig. 10: A, D, and G</bold></xref>). These results indicate that FP3 administration reduces xenograft size and concurrently causes decreased microvessel growth.</p>
+        <fig id="pone-0028384-g008" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g008</object-id>
+          <label>Figure 8</label>
+          <caption>
+            <title>FP3 decreased vascular structure in the xenograft model of primary colon carcinoma.</title>
+            <p>Vasculature was examined by angiography with immunostaining for endothelial cells (using anti-CD31 antibody; bar = 100 µm), and pericytes (using anti-α-SMA antibody; bar = 100 µm). There was a paucity of vessels identified in FP3-treated tumors.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g008" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g009" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g009</object-id>
+          <label>Figure 9</label>
+          <caption>
+            <title>FP3 decreased vascular structure in the xenograft model of colon carcinoma lymphatic metastasis.</title>
+            <p>Vasculature was examined by angiography with immunostaining for endothelial cells (using anti-CD31 antibody; bar = 100 µm), and pericytes (using anti-α-SMA antibody; bar = 100 µm). There was a paucity of vessels identified in FP3-treated tumors.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g009" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g010" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g010</object-id>
+          <label>Figure 10</label>
+          <caption>
+            <title>FP3 decreased vascular structure in the xenograft model of colon carcinoma hepatic metastasis.</title>
+            <p>Vasculature was examined by angiography with immunostaining for endothelial cells (using anti-CD31 antibody; bar = 100 µm), and pericytes (using anti-α-SMA antibody; bar = 100 µm). There was a paucity of vessels identified in FP3-treated tumors.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g010" xlink:type="simple"/>
+        </fig>
+        <p>We next measured cell proliferation in the treated tumors. By immunohistochemical staining, we found that VEGF expression (<xref ref-type="fig" rid="pone-0028384-g011"><bold>Fig. 11</bold></xref>) and PCNA expression (<xref ref-type="fig" rid="pone-0028384-g012"><bold>Fig. 12</bold></xref>) in FP3- and Avastin-treated tumors were significantly suppressed. However, EGFR expression was not significantly different between any of the treatment groups and saline-treated controls (<xref ref-type="fig" rid="pone-0028384-g013"><bold>Fig. 13</bold></xref>), suggesting that levels of EGFR are unlikely to be altered by the treatments.</p>
+        <fig id="pone-0028384-g011" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g011</object-id>
+          <label>Figure 11</label>
+          <caption>
+            <title>Effects of FP3 and Avastin on the expression of VEGF in the PDTT xenograft models of primary colon carcinoma (A–C), lymphatic metastasis (D–F), and hepatic metastasis (G–I).</title>
+            <p>Original magnifications, ×100.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g011" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g012" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g012</object-id>
+          <label>Figure 12</label>
+          <caption>
+            <title>Effects of FP3 and Avastin on the expression of PCNA in the PDTT xenograft models of primary colon carcinoma (A–C), lymphatic metastasis (D–F), and hepatic metastasis (G–I).</title>
+            <p>Original magnifications, ×100.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g012" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g013" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g013</object-id>
+          <label>Figure 13</label>
+          <caption>
+            <title>Effects of FP3 and Avastin on the expression of EGFR in the PDTT xenograft models of primary colon carcinoma (A–C), lymphatic metastasis (D–F), and hepatic metastasis (G–I).</title>
+            <p>Original magnifications, ×100.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g013" xlink:type="simple"/>
+        </fig>
+        <p>Because inhibition of VEGF signaling can decrease VEGFR-2 expression in certain types of blood vessels <xref ref-type="bibr" rid="pone.0028384-Huang1">[43]</xref>, <xref ref-type="bibr" rid="pone.0028384-Baffert1">[44]</xref>, we asked whether VEGF/VEGFR blockade decreased receptor expression in our tumor models. Treatment of the xenograft models with FP3 for 21 days, decreased expression of VEGFR-2, a marker for growing vasculature (<xref ref-type="fig" rid="pone-0028384-g014"><bold>Fig. 14</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g015"><bold>15</bold></xref>). These results were consistent with the disappearance of endothelial cells expressing this receptor (<xref ref-type="fig" rid="pone-0028384-g008"><bold>Fig. 8</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g009"><bold>9</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g010"><bold>10</bold></xref>).</p>
+        <fig id="pone-0028384-g014" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g014</object-id>
+          <label>Figure 14</label>
+          <caption>
+            <title>Effects of FP3 and Avastin on the expression of VEGFR-2 in the PDTT xenograft models of primary colon carcinoma (A–C), lymphatic metastasis (D–F), and hepatic metastasis (G–I).</title>
+            <p>Original magnifications, ×100.</p>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g014" xlink:type="simple"/>
+        </fig>
+        <fig id="pone-0028384-g015" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028384.g015</object-id>
+          <label>Figure 15</label>
+          <caption>
+            <title>Western blotting analysis showing the effects of FP3 and Avastin on the expression of VEGFR-2 protein in the PDTT xenograft models of primary colon carcinoma (A), lymphatic metastasis (B), and hepatic metastasis (C).</title>
+          </caption>
+          <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.g015" xlink:type="simple"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>Rodent tumor models currently being used and which include transgenic tumor models, and those generated by planting human tumor cell lines subcutaneously in immunodeficient mice, do not sufficiently represent clinical cancer characteristics, especially with regard to metastasis and drug sensitivity <xref ref-type="bibr" rid="pone.0028384-Jin4">[29]</xref>. The increasingly used PDTT xenografts models implanted subcutaneously or in subrenal capsule in immunodeficient mice provide a more accurate reflection of human tumor biological characteristics than tumor cell lines. The ability to passage patients' fresh tumor tissues into large numbers of immunodeficient mice provides possibilities for better preclinical testing of new therapies for the treatment and better outcome for cancer.</p>
+      <p>In our study, we successfully established the PDTT xenograft models of primary colon carcinoma and its corresponding lymphatic and hepatic metastases. One of vital questions relating to PDTT xenografts is whether tumor passage in the experimental mice alters the phenotype of primary cancer cells. When developing the anticancer agents, especially molecularly targeted agents, detailed characterisation of the molecules is indispensable. If there are fundamental changes in tumors from before to after their engrafting, the model may not do well in reflecting the features of human cancers. Therefore, the practicability of this model as a screening platform for new drug development for this disease will be limited. Similarly, the value of this model as a tool to individualise patient treatment would be limited <xref ref-type="bibr" rid="pone.0028384-RubioViqueira1">[40]</xref>. Using PDTT xenografts as models for preclinical anticancer drug development is based on the assumption that the xenografts would closely resemble the corresponding original tumors. In our study, we firstly demonstrated that early passages of the PDTT xenograft models of primary colon carcinoma, lymphatic and hepatic metastases revealed a high degree of similarity with the original clinical tumor sample with regard to histology (<xref ref-type="fig" rid="pone-0028384-g002"><bold>Fig. 2</bold></xref>), immunohistochemistry (<xref ref-type="fig" rid="pone-0028384-g003"><bold>Fig. 3</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g004"><bold>4</bold></xref>), mutation status (<bold>see <xref ref-type="supplementary-material" rid="pone.0028384.s001">Fig. S1</xref>, <xref ref-type="supplementary-material" rid="pone.0028384.s002">S2</xref>, <xref ref-type="supplementary-material" rid="pone.0028384.s003">S3</xref>, <xref ref-type="supplementary-material" rid="pone.0028384.s004">S4</xref></bold>), mRNA expression (data not shown) as well as genes expression (<xref ref-type="fig" rid="pone-0028384-g006"><bold>Fig. 6</bold></xref>). As these xenografts models retain similar histopathological features and molecular signatures as the original tumors, they could be used for rapid screening of potential therapeutics not only on the primary tumor, but also on its corresponding metastases.</p>
+      <p>One of the general applications of the PDTT xenograft models of primary colon carcinoma and its corresponding lymphatic and hepatic metastases is that they can be used as an in vivo screening tool to test the response of both the primary tumor and the metastases to some certain novel drugs. Furthermore, these models may help us to clear whether the primary tumors and corresponding metastases have different response to the same anticancer drugs. In this study, the PDTT xenograft models of primary colon carcinoma and its corresponding lymphatic and hepatic metastases were used for assessment of a novel VEGF targeted agent, FP3. As shown in results, FP3 significantly inhibited the growth of xenografts of primary colon carcinoma and its corresponding lymphatic and hepatic metastases and concurrently caused inhibition of tumor vessels growth dramatically [<xref ref-type="fig" rid="pone-0028384-g007"><bold>Fig. 7</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g008"><bold>8</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g009"><bold>9</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0028384-g010"><bold>10</bold></xref>]. These results coincide with our previous works <xref ref-type="bibr" rid="pone.0028384-Jin2">[24]</xref>, <xref ref-type="bibr" rid="pone.0028384-Jin3">[28]</xref>.</p>
+      <p>In conclusion, our work successfully established the PDTT xenograft models of colon carcinoma with lymphatic and hepatic metastasis useful for testing of a novel molecularly anti-VEGF targeted agent, FP3. Early passages of the PDTT xenograft models of primary colon carcinoma, lymphatic and hepatic metastases revealed a high degree of similarity with the original clinical tumor samples. They provide appropriate models for testing of novel molecularly targeted agents. These models may also help us to clear whether the primary tumors and corresponding metastases have different response to the same anticancer drugs.</p>
+    </sec>
+    <sec id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material id="pone.0028384.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.s001" xlink:type="simple">
+        <label>Figure S1</label>
+        <caption>
+          <p><bold>Mutation analysis by pyrosequencing.</bold> Sequence data of <italic>KRAS</italic> gene in exon 1 at codons 12 and 13 of primary tumor tissues and their early-generation xenograft models tumor tissues. A, standard wild-type sample. Tumor tissues from surgical specimens of primary colon carcinoma (B) and its corresponding lymphatic metastasis (D) and hepatic metastasis (F). Tumor tissues from the third generation of xenograft models of primary colon carcinoma (C) and its corresponding lymphatic metastasis (E) and hepatic metastasis (G).</p>
+          <p>(TIF)</p>
+        </caption>
+      </supplementary-material>
+      <supplementary-material id="pone.0028384.s002" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.s002" xlink:type="simple">
+        <label>Figure S2</label>
+        <caption>
+          <p><bold>Mutation analysis by pyrosequencing.</bold> Sequence data of <italic>BRAF</italic> gene in exon 15 at codon 600 of primary tumor tissues and their early-generation xenograft models tumor tissues. A, standard wild-type sample. Tumor tissues from surgical specimens of primary colon carcinoma (B) and its corresponding lymphatic metastasis (D) and hepatic metastasis (F). Tumor tissues from the third generation of xenograft models of primary colon carcinoma (C) and its corresponding lymphatic metastasis (E) and hepatic metastasis (G).</p>
+          <p>(TIF)</p>
+        </caption>
+      </supplementary-material>
+      <supplementary-material id="pone.0028384.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.s003" xlink:type="simple">
+        <label>Figure S3</label>
+        <caption>
+          <p><bold>Mutation analysis by pyrosequencing.</bold> Sequence data of <italic>PIK3CA</italic> gene in exon 9 at codons 539, 542, 545 and 546 of primary tumor tissues and their early-generation xenograft models tumor tissues. A, standard wild-type sample. Tumor tissues from surgical specimens of primary colon carcinoma (B) and its corresponding lymphatic metastasis (D) and hepatic metastasis (F). Tumor tissues from the third generation of xenograft models of primary colon carcinoma (C) and its corresponding lymphatic metastasis (E) and hepatic metastasis (G).</p>
+          <p>(TIF)</p>
+        </caption>
+      </supplementary-material>
+      <supplementary-material id="pone.0028384.s004" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.s004" xlink:type="simple">
+        <label>Figure S4</label>
+        <caption>
+          <p><bold>Mutation analysis by pyrosequencing.</bold> Sequence data of <italic>PIK3CA</italic> gene in exon 20 at codons 1043, 1044, 1047 and 1049 of primary tumor tissues and their early-generation xenograft models tumor tissues. A, standard wild-type sample. Tumor tissues from surgical specimens of primary colon carcinoma (B) and its corresponding lymphatic metastasis (D) and hepatic metastasis (F). Tumor tissues from the third generation of xenograft models of primary colon carcinoma (C) and its corresponding lymphatic metastasis (E) and hepatic metastasis (G).</p>
+          <p>(TIF)</p>
+        </caption>
+      </supplementary-material>
+      <supplementary-material id="pone.0028384.s005" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.s005" xlink:type="simple">
+        <label>Table S1</label>
+        <caption>
+          <p>
+            <bold>Genes differentially expressed in patient primary colon cancer specimens and its xenograft.</bold>
+          </p>
+          <p>(DOC)</p>
+        </caption>
+      </supplementary-material>
+      <supplementary-material id="pone.0028384.s006" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.s006" xlink:type="simple">
+        <label>Table S2</label>
+        <caption>
+          <p>
+            <bold>Genes differentially expressed in patient colon cancer lymphatic metastasis specimens and its xenograft.</bold>
+          </p>
+          <p>(DOC)</p>
+        </caption>
+      </supplementary-material>
+      <supplementary-material id="pone.0028384.s007" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.s007" xlink:type="simple">
+        <label>Table S3</label>
+        <caption>
+          <p>
+            <bold>Genes differentially expressed in patient colon cancer hepatic metastasis specimens and its xenograft.</bold>
+          </p>
+          <p>(DOC)</p>
+        </caption>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0028384-Morton1">
+        <label>1</label>
+        <element-citation publication-type="journal" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western"><surname>Morton</surname><given-names>CL</given-names></name>
+            <name name-style="western"><surname>Houghton</surname><given-names>PJ</given-names></name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Establishment of human tumor xenografts in immunodeficient mice.</article-title>
+          <source>Nat Protoc</source>
+          <volume>2</volume>
+          <fpage>247</fpage>
+          <lpage>250</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pone.0028384-VoskoglouNomikos1">
+        <label>2</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Voskoglou-Nomikos</surname><given-names>T</given-names></name><name name-style="western"><surname>Pater</surname><given-names>JL</given-names></name><name name-style="western"><surname>Seymour</surname><given-names>L</given-names></name></person-group>             <year>2003</year>             <article-title>Clinical predictive value of the in vitro cell line, human xenograft, and mouse allograft preclinical cancer models.</article-title>             <source>Clin Cancer Res</source>             <volume>9</volume>             <fpage>4227</fpage>             <lpage>4239</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Johnson1">
+        <label>3</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Johnson</surname><given-names>JI</given-names></name><name name-style="western"><surname>Decker</surname><given-names>S</given-names></name><name name-style="western"><surname>Zaharevitz</surname><given-names>D</given-names></name><name name-style="western"><surname>Rubinstein</surname><given-names>LV</given-names></name><name name-style="western"><surname>Venditti</surname><given-names>JM</given-names></name><etal/></person-group>             <year>2001</year>             <article-title>Relationships between drug activity in NCI preclinical in vitro and in vivo models and early clinical trials.</article-title>             <source>Br J Cancer</source>             <volume>84</volume>             <fpage>1424</fpage>             <lpage>1431</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Sausville1">
+        <label>4</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Sausville</surname><given-names>EA</given-names></name><name name-style="western"><surname>Burger</surname><given-names>AM</given-names></name></person-group>             <year>2006</year>             <article-title>Contributions of human tumor xenografts to anticancer drug development.</article-title>             <source>Cancer Res</source>             <volume>66</volume>             <fpage>3351</fpage>             <lpage>3354</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Jin1">
+        <label>5</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Jin</surname><given-names>K</given-names></name><name name-style="western"><surname>He</surname><given-names>K</given-names></name><name name-style="western"><surname>Teng</surname><given-names>F</given-names></name><name name-style="western"><surname>Han</surname><given-names>N</given-names></name><name name-style="western"><surname>Li</surname><given-names>G</given-names></name><etal/></person-group>             <year>2011</year>             <article-title>Heterogeneity in primary tumors and corresponding metastases: could it provide us with any hints to personalize cancer therapy?</article-title>             <source>Pers Med</source>             <volume>8</volume>             <fpage>175</fpage>             <lpage>182</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Gong1">
+        <label>6</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Gong</surname><given-names>Y</given-names></name><name name-style="western"><surname>Booser</surname><given-names>DJ</given-names></name><name name-style="western"><surname>Sneige</surname><given-names>N</given-names></name></person-group>             <year>2005</year>             <article-title>Comparison of HER-2 status determined by fluorescence in situ hybridization in primary and metastatic breast carcinoma.</article-title>             <source>Cancer</source>             <volume>103</volume>             <fpage>1763</fpage>             <lpage>1769</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Gancberg1">
+        <label>7</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Gancberg</surname><given-names>D</given-names></name><name name-style="western"><surname>Di Leo</surname><given-names>A</given-names></name><name name-style="western"><surname>Cardoso</surname><given-names>F</given-names></name><name name-style="western"><surname>Rouas</surname><given-names>G</given-names></name><name name-style="western"><surname>Pedrocchi</surname><given-names>M</given-names></name><etal/></person-group>             <year>2002</year>             <article-title>Comparison of HER-2 status between primary breast cancer and corresponding distant metastatic sites.</article-title>             <source>Ann Oncol</source>             <volume>13</volume>             <fpage>1036</fpage>             <lpage>1043</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Regitnig1">
+        <label>8</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Regitnig</surname><given-names>P</given-names></name><name name-style="western"><surname>Schippinger</surname><given-names>W</given-names></name><name name-style="western"><surname>Lindbauer</surname><given-names>M</given-names></name><name name-style="western"><surname>Samonigg</surname><given-names>H</given-names></name><name name-style="western"><surname>Lax</surname><given-names>SF</given-names></name></person-group>             <year>2004</year>             <article-title>Change of HER-2/neu status in a subset of distant metastases from breast carcinomas.</article-title>             <source>J Pathol</source>             <volume>203</volume>             <fpage>918</fpage>             <lpage>926</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Bozzetti1">
+        <label>9</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Bozzetti</surname><given-names>C</given-names></name><name name-style="western"><surname>Personeni</surname><given-names>N</given-names></name><name name-style="western"><surname>Nizzoli</surname><given-names>R</given-names></name><name name-style="western"><surname>Guazzi</surname><given-names>A</given-names></name><name name-style="western"><surname>Flora</surname><given-names>M</given-names></name><etal/></person-group>             <year>2003</year>             <article-title>HER-2/neu amplification by fluorescence in situ hybridization in cytologic samples from distant metastatic sites of breast carcinoma.</article-title>             <source>Cancer</source>             <volume>99</volume>             <fpage>310</fpage>             <lpage>315</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Tanner1">
+        <label>10</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Tanner</surname><given-names>M</given-names></name><name name-style="western"><surname>Järvinen</surname><given-names>P</given-names></name><name name-style="western"><surname>Isola</surname><given-names>J</given-names></name></person-group>             <year>2001</year>             <article-title>Amplification of HER-2/neu and topoisomerase IIalpha in primary and metastatic breast cancer.</article-title>             <source>Cancer Res</source>             <volume>61</volume>             <fpage>5345</fpage>             <lpage>5348</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Tapia1">
+        <label>11</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Tapia</surname><given-names>C</given-names></name><name name-style="western"><surname>Savic</surname><given-names>S</given-names></name><name name-style="western"><surname>Wagner</surname><given-names>U</given-names></name><name name-style="western"><surname>Schönegg</surname><given-names>R</given-names></name><name name-style="western"><surname>Novotny</surname><given-names>H</given-names></name><etal/></person-group>             <year>2007</year>             <article-title>HER2 gene status in primary breast cancers and matched distant metastases.</article-title>             <source>Breast Cancer Res</source>             <volume>9</volume>             <fpage>R31</fpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Akcakanat1">
+        <label>12</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Akcakanat</surname><given-names>A</given-names></name><name name-style="western"><surname>Sahin</surname><given-names>A</given-names></name><name name-style="western"><surname>Shaye</surname><given-names>AN</given-names></name><name name-style="western"><surname>Velasco</surname><given-names>MA</given-names></name><name name-style="western"><surname>Meric-Bernstam</surname><given-names>F</given-names></name></person-group>             <year>2008</year>             <article-title>Comparison of Akt/mTOR signaling in primary breast tumors and matched distant metastases.</article-title>             <source>Cancer</source>             <volume>112</volume>             <fpage>2352</fpage>             <lpage>2358</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Wu1">
+        <label>13</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Wu</surname><given-names>JM</given-names></name><name name-style="western"><surname>Fackler</surname><given-names>MJ</given-names></name><name name-style="western"><surname>Halushka</surname><given-names>MK</given-names></name><name name-style="western"><surname>Molavi</surname><given-names>DW</given-names></name><name name-style="western"><surname>Taylor</surname><given-names>ME</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Heterogeneity of breast cancer metastases: comparison of therapeutic target expression and promoter methylation between primary tumors and their multifocal metastases.</article-title>             <source>Clin Cancer Res</source>             <volume>14</volume>             <fpage>1938</fpage>             <lpage>1946</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Baldus1">
+        <label>14</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Baldus</surname><given-names>SE</given-names></name><name name-style="western"><surname>Schaefer</surname><given-names>KL</given-names></name><name name-style="western"><surname>Engers</surname><given-names>R</given-names></name><name name-style="western"><surname>Hartleb</surname><given-names>D</given-names></name><name name-style="western"><surname>Stoecklein</surname><given-names>NH</given-names></name><etal/></person-group>             <year>2010</year>             <article-title>Prevalence and heterogeneity of KRAS, BRAF, and PIK3CA mutations in primary colorectal adenocarcinomas and their corresponding metastases.</article-title>             <source>Clin Cancer Res</source>             <volume>16</volume>             <fpage>790</fpage>             <lpage>799</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Molinari1">
+        <label>15</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Molinari</surname><given-names>F</given-names></name><name name-style="western"><surname>Martin</surname><given-names>V</given-names></name><name name-style="western"><surname>Saletti</surname><given-names>P</given-names></name><name name-style="western"><surname>De Dosso</surname><given-names>S</given-names></name><name name-style="western"><surname>Spitale</surname><given-names>A</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>Differing deregulation of EGFR and downstream proteins in primary colorectal cancer and related metastatic sites may be clinically relevant.</article-title>             <source>Br J Cancer</source>             <volume>100</volume>             <fpage>1087</fpage>             <lpage>1094</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Scartozzi1">
+        <label>16</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Scartozzi</surname><given-names>M</given-names></name><name name-style="western"><surname>Bearzi</surname><given-names>I</given-names></name><name name-style="western"><surname>Berardi</surname><given-names>R</given-names></name><name name-style="western"><surname>Mandolesi</surname><given-names>A</given-names></name><name name-style="western"><surname>Fabris</surname><given-names>G</given-names></name><etal/></person-group>             <year>2004</year>             <article-title>Epidermal growth factor receptor (EGFR) status in primary colorectal tumors does not correlate with EGFR expression in related metastatic sites: implications for treatment with EGFR-targeted monoclonal antibodies.</article-title>             <source>J Clin Oncol</source>             <volume>22</volume>             <fpage>4772</fpage>             <lpage>4778</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Scartozzi2">
+        <label>17</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Scartozzi</surname><given-names>M</given-names></name><name name-style="western"><surname>Bearzi</surname><given-names>I</given-names></name><name name-style="western"><surname>Berardi</surname><given-names>R</given-names></name><name name-style="western"><surname>Mandolesi</surname><given-names>A</given-names></name><name name-style="western"><surname>Pierantoni</surname><given-names>C</given-names></name><etal/></person-group>             <year>2007</year>             <article-title>Epidermal growth factor receptor (EGFR) downstream signalling pathway in primary colorectal tumours and related metastatic sites: optimising EGFR-targeted treatment options.</article-title>             <source>Br J Cancer</source>             <volume>97</volume>             <fpage>92</fpage>             <lpage>97</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Sasatomi1">
+        <label>18</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Sasatomi</surname><given-names>E</given-names></name><name name-style="western"><surname>Finkelstein</surname><given-names>SD</given-names></name><name name-style="western"><surname>Woods</surname><given-names>JD</given-names></name><name name-style="western"><surname>Bakker</surname><given-names>A</given-names></name><name name-style="western"><surname>Swalsky</surname><given-names>PA</given-names></name><etal/></person-group>             <year>2002</year>             <article-title>Comparison of accumulated allele loss between primary tumor and lymph node metastasis in stage II non-small cell lung carcinoma: implications for the timing of lymph node metastasis and prognostic value.</article-title>             <source>Cancer Res</source>             <volume>62</volume>             <fpage>2681</fpage>             <lpage>2689</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Park1">
+        <label>19</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Park</surname><given-names>S</given-names></name><name name-style="western"><surname>Holmes-Tisch</surname><given-names>AJ</given-names></name><name name-style="western"><surname>Cho</surname><given-names>EY</given-names></name><name name-style="western"><surname>Shim</surname><given-names>YM</given-names></name><name name-style="western"><surname>Kim</surname><given-names>J</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>Discordance of molecular biomarkers associated with epidermal growth factor receptor pathway between primary tumors and lymph node metastasis in non-small cell lung cancer.</article-title>             <source>J Thorac Oncol</source>             <volume>4</volume>             <fpage>809</fpage>             <lpage>815</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Li1">
+        <label>20</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Li</surname><given-names>Z</given-names></name><name name-style="western"><surname>Jin</surname><given-names>K</given-names></name><name name-style="western"><surname>Lan</surname><given-names>H</given-names></name><name name-style="western"><surname>Teng</surname><given-names>L</given-names></name></person-group>             <year>2011</year>             <article-title>Heterogeneity in primary colorectal cancer and its corresponding metastases: a potential reason of EGFR-targeted therapy failure?</article-title>             <source>Hepatogastroenterology</source>             <volume>58</volume>             <fpage>411</fpage>             <lpage>416</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Monaco1">
+        <label>21</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Monaco</surname><given-names>SE</given-names></name><name name-style="western"><surname>Nikiforova</surname><given-names>MN</given-names></name><name name-style="western"><surname>Cieply</surname><given-names>K</given-names></name><name name-style="western"><surname>Teot</surname><given-names>LA</given-names></name><name name-style="western"><surname>Khalbuss</surname><given-names>WE</given-names></name><etal/></person-group>             <year>2010</year>             <article-title>A comparison of EGFR and KRAS status in primary lung carcinoma and matched metastases.</article-title>             <source>Hum Pathol</source>             <volume>41</volume>             <fpage>94</fpage>             <lpage>102</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Loupakis1">
+        <label>22</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Loupakis</surname><given-names>F</given-names></name><name name-style="western"><surname>Pollina</surname><given-names>L</given-names></name><name name-style="western"><surname>Stasi</surname><given-names>I</given-names></name><name name-style="western"><surname>Ruzzo</surname><given-names>A</given-names></name><name name-style="western"><surname>Scartozzi</surname><given-names>M</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>PTEN expression and KRAS mutations on primary tumors and metastases in the prediction of benefit from cetuximab plus irinotecan for patients with metastatic colorectal cancer.</article-title>             <source>J Clin Oncol</source>             <volume>27</volume>             <fpage>2622</fpage>             <lpage>2629</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Teng1">
+        <label>23</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Teng</surname><given-names>LS</given-names></name><name name-style="western"><surname>Jin</surname><given-names>KT</given-names></name><name name-style="western"><surname>He</surname><given-names>KF</given-names></name><name name-style="western"><surname>Wang</surname><given-names>HH</given-names></name><name name-style="western"><surname>Cao</surname><given-names>J</given-names></name><etal/></person-group>             <year>2010</year>             <article-title>Advances in combination of antiangiogenic agents targeting VEGF-binding and conventional chemotherapy and radiation for cancer treatment.</article-title>             <source>J Chin Med Assoc</source>             <volume>73</volume>             <fpage>281</fpage>             <lpage>288</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Jin2">
+        <label>24</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Jin</surname><given-names>K</given-names></name><name name-style="western"><surname>He</surname><given-names>K</given-names></name><name name-style="western"><surname>Teng</surname><given-names>F</given-names></name><name name-style="western"><surname>Li</surname><given-names>G</given-names></name><name name-style="western"><surname>Wang</surname><given-names>H</given-names></name><etal/></person-group>             <year>2011</year>             <article-title>FP3: a novel VEGF blocker with antiangiogenic effects in vitro and antitumor effects in vivo.</article-title>             <source>Clin Transl Oncol</source>             <comment>In press</comment>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Zhang1">
+        <label>25</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>M</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>J</given-names></name><name name-style="western"><surname>Yan</surname><given-names>M</given-names></name><name name-style="western"><surname>Li</surname><given-names>H</given-names></name><name name-style="western"><surname>Yang</surname><given-names>C</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Recombinant anti-vascular endothelial growth factor fusion protein efficiently suppresses choridal neovasularization in monkeys.</article-title>             <source>Mol Vis</source>             <volume>14</volume>             <fpage>37</fpage>             <lpage>49</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Zhang2">
+        <label>26</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>M</given-names></name><name name-style="western"><surname>Yu</surname><given-names>D</given-names></name><name name-style="western"><surname>Yang</surname><given-names>C</given-names></name><name name-style="western"><surname>Xia</surname><given-names>Q</given-names></name><name name-style="western"><surname>Li</surname><given-names>W</given-names></name><etal/></person-group>             <year>2009</year>             <article-title>The pharmacology study of a new recombinant human VEGF receptor-fc fusion protein on experimental choroidal neovascularization.</article-title>             <source>Pharm Res</source>             <volume>26</volume>             <fpage>204</fpage>             <lpage>210</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Zhang3">
+        <label>27</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Zhang</surname><given-names>M</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>J</given-names></name><name name-style="western"><surname>Yan</surname><given-names>M</given-names></name><name name-style="western"><surname>Luo</surname><given-names>D</given-names></name><name name-style="western"><surname>Zhu</surname><given-names>W</given-names></name><etal/></person-group>             <year>2011</year>             <article-title>A phase 1 study of KH902, a vascular endothelial growth factor receptor decoy, for exudative age-related macular degeneration.</article-title>             <source>Ophthalmology</source>             <volume>118</volume>             <fpage>672</fpage>             <lpage>678</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Jin3">
+        <label>28</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Jin</surname><given-names>K</given-names></name><name name-style="western"><surname>He</surname><given-names>K</given-names></name><name name-style="western"><surname>Han</surname><given-names>N</given-names></name><name name-style="western"><surname>Li</surname><given-names>G</given-names></name><name name-style="western"><surname>Wang</surname><given-names>H</given-names></name><etal/></person-group>             <year>2011</year>             <article-title>Establishment of a PDTT xenograft model of gastric carcinoma and its application in personalized therapeutic regimen selection.</article-title>             <source>Hepatogastroenterology</source>             <volume>58</volume>             <issue>110-111</issue>             <comment>Epub Ahead of Print. DOI 10.5754/hge11136</comment>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Jin4">
+        <label>29</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Jin</surname><given-names>K</given-names></name><name name-style="western"><surname>Teng</surname><given-names>L</given-names></name><name name-style="western"><surname>Shen</surname><given-names>Y</given-names></name><name name-style="western"><surname>He</surname><given-names>K</given-names></name><name name-style="western"><surname>Xu</surname><given-names>Z</given-names></name><etal/></person-group>             <year>2010</year>             <article-title>Patient-derived human tumour tissue xenografts in immunodeficient mice: a systematic review.</article-title>             <source>Clin Transl Oncol</source>             <volume>12</volume>             <fpage>473</fpage>             <lpage>480</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Jin5">
+        <label>30</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Jin</surname><given-names>K</given-names></name><name name-style="western"><surname>He</surname><given-names>K</given-names></name><name name-style="western"><surname>Li</surname><given-names>G</given-names></name><name name-style="western"><surname>Teng</surname><given-names>L</given-names></name></person-group>             <year>2010</year>             <article-title>Personalized cancer therapy using a patient-derived tumor tissue xenograft model: a translational field worthy of exploring further?</article-title>             <source>Pers Med</source>             <volume>7</volume>             <fpage>597</fpage>             <lpage>606</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Huynh1">
+        <label>31</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Huynh</surname><given-names>H</given-names></name><name name-style="western"><surname>Chow</surname><given-names>PK</given-names></name><name name-style="western"><surname>Ooi</surname><given-names>LL</given-names></name><name name-style="western"><surname>Soo</surname><given-names>KC</given-names></name></person-group>             <year>2002</year>             <article-title>A possible role for insulin-like growth factor-binding protein-3 autocrine/paracrine loops in controlling hepatocellular carcinoma cell proliferation.</article-title>             <source>Cell Growth Differ</source>             <volume>13</volume>             <fpage>115</fpage>             <lpage>122</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Wang1">
+        <label>32</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name><name name-style="western"><surname>Xue</surname><given-names>H</given-names></name><name name-style="western"><surname>Cutz</surname><given-names>JC</given-names></name><name name-style="western"><surname>Bayani</surname><given-names>J</given-names></name><name name-style="western"><surname>Mawji</surname><given-names>NR</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>An orthotopic metastatic prostate cancer model in SCID mice via grafting of a transplantable human prostate tumor line.</article-title>             <source>Lab Invest</source>             <volume>85</volume>             <fpage>1392</fpage>             <lpage>1404</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Mancuso1">
+        <label>33</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Mancuso</surname><given-names>MR</given-names></name><name name-style="western"><surname>Davis</surname><given-names>R</given-names></name><name name-style="western"><surname>Norberg</surname><given-names>SM</given-names></name><name name-style="western"><surname>O'Brien</surname><given-names>S</given-names></name><name name-style="western"><surname>Sennino</surname><given-names>B</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>Rapid vascular regrowth in tumors after reversal of VEGF inhibition.</article-title>             <source>J Clin Invest</source>             <volume>116</volume>             <fpage>2610</fpage>             <lpage>2621</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Morikawa1">
+        <label>34</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Morikawa</surname><given-names>S</given-names></name><name name-style="western"><surname>Baluk</surname><given-names>P</given-names></name><name name-style="western"><surname>Kaidoh</surname><given-names>T</given-names></name><name name-style="western"><surname>Haskell</surname><given-names>A</given-names></name><name name-style="western"><surname>Jain</surname><given-names>RK</given-names></name><etal/></person-group>             <year>2002</year>             <article-title>Abnormalities in pericytes on blood vessels and endothelial sprouts in tumors.</article-title>             <source>Am J Pathol</source>             <volume>160</volume>             <fpage>985</fpage>             <lpage>1000</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Baluk1">
+        <label>35</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Baluk</surname><given-names>P</given-names></name><name name-style="western"><surname>Morikawa</surname><given-names>S</given-names></name><name name-style="western"><surname>Haskell</surname><given-names>A</given-names></name><name name-style="western"><surname>Mancuso</surname><given-names>M</given-names></name><name name-style="western"><surname>McDonald</surname><given-names>DM</given-names></name></person-group>             <year>2003</year>             <article-title>Abnormalities of basement membrane on blood vessels and endothelial sprouts in tumors.</article-title>             <source>Am J Pathol</source>             <volume>163</volume>             <fpage>1801</fpage>             <lpage>1815</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Fichtner1">
+        <label>36</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Fichtner</surname><given-names>I</given-names></name><name name-style="western"><surname>Rolff</surname><given-names>J</given-names></name><name name-style="western"><surname>Soong</surname><given-names>R</given-names></name><name name-style="western"><surname>Hoffmann</surname><given-names>J</given-names></name><name name-style="western"><surname>Hammer</surname><given-names>S</given-names></name><etal/></person-group>             <year>2008</year>             <article-title>Establishment of patient-derived non-small cell lung cancer xenografts as models for the identification of predictive biomarkers.</article-title>             <source>Clin Cancer Res</source>             <volume>14</volume>             <fpage>6456</fpage>             <lpage>6468</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Ogino1">
+        <label>37</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Ogino</surname><given-names>S</given-names></name><name name-style="western"><surname>Kawasaki</surname><given-names>T</given-names></name><name name-style="western"><surname>Brahmandam</surname><given-names>M</given-names></name><name name-style="western"><surname>Yan</surname><given-names>L</given-names></name><name name-style="western"><surname>Cantor</surname><given-names>M</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>Sensitive sequencing method for KRAS mutation detection by Pyrosequencing.</article-title>             <source>J Mol Diagn</source>             <volume>7</volume>             <fpage>413</fpage>             <lpage>421</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Gibson1">
+        <label>38</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Gibson</surname><given-names>UE</given-names></name><name name-style="western"><surname>Heid</surname><given-names>CA</given-names></name><name name-style="western"><surname>Williams</surname><given-names>PM</given-names></name></person-group>             <year>1996</year>             <article-title>A novel method for real time quantitative RT-PCR.</article-title>             <source>Genome Res</source>             <volume>6</volume>             <fpage>995</fpage>             <lpage>1001</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-Schneider1">
+        <label>39</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Schneider</surname><given-names>S</given-names></name><name name-style="western"><surname>Uchida</surname><given-names>K</given-names></name><name name-style="western"><surname>Brabender</surname><given-names>J</given-names></name><name name-style="western"><surname>Baldus</surname><given-names>SE</given-names></name><name name-style="western"><surname>Yochim</surname><given-names>J</given-names></name><etal/></person-group>             <year>2005</year>             <article-title>Downregulation of TS, DPD, ERCC1, GST-Pi, EGFR, and HER2 gene expression after neoadjuvant three-modality treatment in patients with esophageal cancer.</article-title>             <source>J Am Coll Surg</source>             <volume>200</volume>             <fpage>336</fpage>             <lpage>344</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-RubioViqueira1">
+        <label>40</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Rubio-Viqueira</surname><given-names>B</given-names></name><name name-style="western"><surname>Jimeno</surname><given-names>A</given-names></name><name name-style="western"><surname>Cusatis</surname><given-names>G</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>X</given-names></name><name name-style="western"><surname>Iacobuzio-Donahue</surname><given-names>C</given-names></name><etal/></person-group>             <year>2006</year>             <article-title>An in vivo platform for translational drug development in pancreatic cancer.</article-title>             <source>Clin Cancer Res</source>             <volume>12</volume>             <fpage>4652</fpage>             <lpage>4661</lpage>          </element-citation>
+      </ref>
+      <ref id="pone.0028384-PerezSoler1">
+        <label>41</label>
+        <element-citation publication-type="journal" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Perez-Soler</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kemp</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wu</surname>
+              <given-names>QP</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mao</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gomez</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2000</year>
+          <article-title>Response and determinants of sensitivity to paclitaxel in human non-small cell lung cancer tumors heterotransplanted in nude mice.</article-title>
+          <source>Clin Cancer Res</source>
+          <volume>6</volume>
+          <fpage>4932</fpage>
+          <lpage>4938</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pone.0028384-Teng2">
+        <label>42</label>
+        <element-citation publication-type="journal" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western"><surname>Teng</surname><given-names>LS</given-names></name>
+            <name name-style="western"><surname>Jin</surname><given-names>KT</given-names></name>
+            <name name-style="western"><surname>He</surname><given-names>KF</given-names></name>
+            <name name-style="western"><surname>Wang</surname><given-names>HH</given-names></name>
+            <name name-style="western"><surname>Cao</surname><given-names>J</given-names></name>
+            <etal/>
+          </person-group>
+          <year>2010</year>
+          <article-title>Advances in combination of antiangiogenic agents targeting VEGF-binding and conventional chemotherapy and radiation for cancer treatment.</article-title>
+          <source>J Chin Med Assoc</source>
+          <volume>73</volume>
+          <fpage>281</fpage>
+          <lpage>288</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pone.0028384-Huang1">
+        <label>43</label>
+        <element-citation publication-type="journal" xlink:type="simple">
+          <person-group person-group-type="author">
+            <name name-style="western"><surname>Huang</surname><given-names>J</given-names></name>
+            <name name-style="western"><surname>Frischer</surname><given-names>JS</given-names></name>
+            <name name-style="western"><surname>Serur</surname><given-names>A</given-names></name>
+            <name name-style="western"><surname>Kadenhe</surname><given-names>A</given-names></name>
+            <name name-style="western"><surname>Yokoi</surname><given-names>A</given-names></name>
+            <etal/>
+          </person-group>
+          <year>2003</year>
+          <article-title>Regression of established tumors and metastases by potent vascular endothelial growth factor blockade.</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <volume>100</volume>
+          <fpage>7785</fpage>
+          <lpage>7790</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pone.0028384-Baffert1">
+        <label>44</label>
+        <element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author"><name name-style="western"><surname>Baffert</surname><given-names>F</given-names></name><name name-style="western"><surname>Thurston</surname><given-names>G</given-names></name><name name-style="western"><surname>Rochon-Duck</surname><given-names>M</given-names></name><name name-style="western"><surname>Le</surname><given-names>T</given-names></name><name name-style="western"><surname>Brekken</surname><given-names>R</given-names></name><etal/></person-group>             <year>2004</year>             <article-title>Age-related changes in VEGF-dependency and angiopoietin-1 induced plasticity of adult blood vessels.</article-title>             <source>Circ Res</source>             <volume>94</volume>             <fpage>984</fpage>             <lpage>992</lpage>          </element-citation>
+      </ref>
+    </ref-list>
+    
+  </back>
+</article>

@@ -32,6 +32,14 @@ module PLOS
       end
     end
 
+    def authors
+      contributors.collect { |contrib| contrib.name if contrib.type == "author" }.compact
+    end
+
+    def editors
+      contributors.collect { |contrib| contrib.name if contrib.type == "editor" }.compact
+    end
+
     def contributors
       @contributors ||= []
     end

@@ -7,6 +7,7 @@ module PLOS
     attr_accessor :journal_title
     attr_accessor :journal_ids
     attr_accessor :issns
+    attr_writer :affiliations
     attr_writer :contributors
     attr_writer :references
     attr_writer :sections
@@ -18,6 +19,10 @@ module PLOS
       self.issns = nodes_to_hash(node.search("journal-meta/issn"), "pub-type")
       self.journal_ids = nodes_to_hash(node.search("journal-meta/journal-id"), "journal-id-type")
       self.article_ids = nodes_to_hash(node.search("article-meta/article-id"), "pub-id-type")
+
+      node.search("aff").each do |aff_node|
+        self.affiliations << PLOS::Affiliation.new(aff_node)
+      end
 
       node.search("contrib").each do |contrib_node|
         self.contributors << PLOS::Contributor.new(contrib_node)
@@ -38,6 +43,10 @@ module PLOS
 
     def editors
       contributors.collect { |contrib| contrib.name if contrib.type == "editor" }.compact
+    end
+
+    def affiliations
+      @affiliations ||= []
     end
 
     def contributors

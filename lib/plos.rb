@@ -1,4 +1,5 @@
 require "plos/xml_helpers"
+require "plos/affiliation"
 require "plos/article_ref"
 require "plos/article"
 require "plos/contributor"

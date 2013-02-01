@@ -65,15 +65,70 @@ describe PLOS do
     end
 
     context "the editor" do
+      let(:contributor) { article.contributors.select { |c| c.type == "editor" }.first }
       let(:editor) { article.editors.first }
 
       it "should have Alana L. Welm as the editor" do
         editor.to_s.should == "Alana L. Welm"
       end
+
+      it "should be affiliated with edit1" do
+        contributor.xrefs.size.should == 1
+      end
+
+      it "should be affiliated with edit1" do
+        contributor.xrefs.first[:id].should == "edit1"
+      end
     end
 
     it "should have 44 references" do
       article.references.size.should == 44
+    end
+
+    context "the first reference" do
+      let(:reference) { article.references.first }
+
+      it "should have the proper id" do
+        reference.id.should == "pone.0028384-Morton1"
+      end
+
+      it "should have the proper title" do
+        reference.title.should == "Establishment of human tumor xenografts in immunodeficient mice."
+      end
+
+      it "should have the proper label" do
+        reference.label.should == "1"
+      end
+
+      it "should have the proper type" do
+        reference.type.should == "journal"
+      end
+
+      it "should have the proper authors" do
+        reference.authors.size.should == 2
+        reference.authors.first.to_s.should == "CL Morton"
+        reference.authors.last.to_s.should == "PJ Houghton"
+      end
+
+      it "should have the proper year" do
+        reference.year.should == "2007"
+      end
+
+      it "should have the proper source" do
+        reference.source.should == "Nat Protoc"
+      end
+
+      it "should have the proper volume" do
+        reference.volume.should == "2"
+      end
+
+      it "should have the proper first_page" do
+        reference.first_page.should == "247"
+      end
+
+      it "should have the proper last_page" do
+        reference.last_page.should == "250"
+      end
     end
 
     it "should have 19 sections" do

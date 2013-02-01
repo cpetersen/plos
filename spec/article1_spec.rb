@@ -81,6 +81,38 @@ describe PLOS do
       end
     end
 
+    it "should have 15 figures" do
+      article.figures.size.should == 15
+    end
+
+    context "the first figure" do
+      let(:figure) { article.figures.first }
+
+      it "should have the proper id" do
+        figure.id.should == "pone-0028384-g001"
+      end
+
+      it "should have the proper position" do
+        figure.position.should == "float"
+      end
+
+      it "should have the proper label" do
+        figure.label.should == "Figure 1"
+      end
+
+      it "should have the proper caption" do
+        figure.caption.should == {:title=>"Expression of CDX-2 and CK-20 in the tumor tissues of lymphatic (A and B) and hepatic metastasis (C and D).", :body=>"Original magnifications, x200."}
+      end
+
+      it "should have the proper graphic" do
+        figure.graphic.should == {:mimetype=>"image", :position=>"float", :link=>"info:doi/10.1371/journal.pone.0028384.g001"}
+      end
+
+      it "should have the proper object" do
+        figure.object.should == {:type=>"doi", :value=>"10.1371/journal.pone.0028384.g001"}
+      end
+    end
+
     it "should have 44 references" do
       article.references.size.should == 44
     end

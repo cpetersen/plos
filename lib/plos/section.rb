@@ -17,6 +17,8 @@ module PLOS
           self.title = child.text
         when "sec"
           self.sections << PLOS::Section.new(child)
+        when "fig"
+          self.sections << PLOS::Figure.new(child)
         else
           self.body << child.to_s
         end

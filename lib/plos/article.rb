@@ -9,6 +9,7 @@ module PLOS
     attr_accessor :issns
     attr_writer :affiliations
     attr_writer :contributors
+    attr_writer :figures
     attr_writer :references
     attr_writer :sections
 
@@ -26,6 +27,10 @@ module PLOS
 
       node.search("contrib").each do |contrib_node|
         self.contributors << PLOS::Contributor.new(contrib_node)
+      end
+
+      node.search("fig").each do |fig_node|
+        self.figures << PLOS::Figure.new(fig_node)
       end
 
       node.search("sec").each do |section_node|
@@ -53,6 +58,10 @@ module PLOS
       @contributors ||= []
     end
 
+    def figures
+      @figures ||= []
+    end
+
     def references
       @references ||= []
     end
@@ -62,3 +71,5 @@ module PLOS
     end
   end
 end
+
+# <named-content content-type="gene" xlink:type="simple">5′- AGGACGCAAGGAGGGTTTG -3′</named-content>

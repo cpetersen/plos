@@ -12,6 +12,7 @@ module PLOS
     attr_writer :figures
     attr_writer :references
     attr_writer :sections
+    attr_writer :named_content
 
     def initialize(node)
       self.article_title = tag_value(node.search("title-group"), "article-title")
@@ -39,6 +40,12 @@ module PLOS
 
       node.search("ref").each do |ref_node|
         self.references << PLOS::Reference.new(ref_node)
+      end
+
+      node.search("named-content").each do |content_node|
+        type = content_node.attr("content-type")
+        value = content_node.text
+        named_content << {:type => type, :value => value}
       end
     end
 
@@ -68,6 +75,10 @@ module PLOS
 
     def sections
       @sections ||= []
+    end
+
+    def named_content
+      @named_content ||= []
     end
   end
 end

@@ -166,5 +166,21 @@ describe PLOS do
     it "should have 19 sections" do
       article.sections.size.should == 19
     end
+
+    it "should have X named content items" do
+      article.named_content.size.should == 12
+    end
+
+    context "the first named content item" do
+      let(:item) { article.named_content.first }
+
+      it "should be a gene" do
+        item[:type].should == "gene"
+      end
+
+      it "should have the correct value" do
+        item[:value].should == "5'- AGGACGCAAGGAGGGTTTG -3'"
+      end
+    end
   end
 end

@@ -311,7 +311,7 @@
       </sec>
       <sec id="s2i">
         <title>qRT-PCR</title>
-        <p>Total RNA was extracted from frozen tissues using TRIzol reagent according to the protocol provided by the manufacturer (Invitrogen, Carlsbad, CA). Total RNA was reverse-transcribed into single-strand complementary DNA (cDNA) using moloney-murine leukemia virus (M-MLV) reverse transcriptase (Promega, Madison, WI). Briefly, the RNA was denatured by heating for 5 min at 70°C, followed by rapid cooling on ice, and then used for reverse transcription (2 µg of total RNA, 25 U of RNase inhibitor, 0.5 mmol/L of each dNTP, 1.5 µmol/L reverse primer and 200 U of M-MLV reverse transcriptase in a total volume of 25 µl). For reverse transcription, tubes were incubated at 42°C for 60 min. The expression of a randomly selected set of genes, including dehydropyrimidine deshydrogenase (<italic>DPD</italic>), nucleotide excision repair-1 (<italic>ERCC-1</italic>), and thymidylate synthase (<italic>TS</italic>) in tissues in original tumors (G0) and tumors from the third generation (G3) was analyzed using a fluorescence-based real-time detection method (ABI PRISM 7700 Sequence Detection System [TaqMan]; Perkin-Elmer Applied Biosystems) as previously described <xref ref-type="bibr" rid="pone.0028384-Gibson1">[38]</xref>, <xref ref-type="bibr" rid="pone.0028384-Schneider1">[39]</xref>. Specific primer pairs and probes are listed in <xref ref-type="table" rid="pone-0028384-t001"><bold>Table 1</bold></xref>. The <italic>β</italic>-actin gene was used as an endogenous control for normalization. The qRT-PCR reaction was carried out in triplicate for each sample. The 25 µl PCR mixture was consisted of 1 µl of cDNA template, 1 µl each of sense and anti-sense primers, 0.75 µl of 5′ FAM- and 3′ TAMARA-labeled oligonucleotide probe, 2 µl of dNTP mixture, 5 µl of 5× reaction buffer, and 0.125 µl of Taq DNA polymerase. Cycling conditions were 50°C for 2 minutes, and 95°C for 10 minutes, followed by 46 cycles at 95°C for 15 seconds and 60°C for 1 minute.</p>
+        <p>Total RNA was extracted from frozen tissues using TRIzol reagent according to the protocol provided by the manufacturer (Invitrogen, Carlsbad, CA). Total RNA was reverse-transcribed into single-strand complementary DNA (cDNA) using moloney-murine leukemia virus (M-MLV) reverse transcriptase (Promega, Madison, WI). Briefly, the RNA was denatured by heating for 5 min at 70°C, followed by rapid cooling on ice, and then used for reverse transcription (2 µg of total RNA, 25 U of RNase inhibitor, 0.5 mmol/L of each dNTP, 1.5 µmol/L reverse primer and 200 U of M-MLV reverse transcriptase in a total volume of 25 µl). For reverse transcription, tubes were incubated at 42°C for 60 min. The expression of a randomly selected set of genes, including dehydropyrimidine deshydrogenase (<italic>DPD</italic>), nucleotide excision repair-1 (<italic>ERCC-1</italic>), and thymidylate synthase (<italic>TS</italic>) in tissues in original tumors (G0) and tumors from the third generation (G3) was analyzed using a fluorescence-based real-time detection method (ABI PRISM 7700 Sequence Detection System [TaqMan]; Perkin-Elmer Applied Biosystems) as previously described <xref ref-type="bibr" rid="pone.0028384-Gibson1">[38]</xref>, <xref ref-type="bibr" rid="pone.0028384-Schneider1">[39]</xref>. Specific primer pairs and probes are listed in <xref ref-type="table" rid="pone-0028384-t001"><bold>Table 1</bold></xref>. The <italic>β</italic>-actin gene was used as an endogenous control for normalization. The qRT-PCR reaction was carried out in triplicate for each sample. The 25 µl PCR mixture was consisted of 1 µl of cDNA template, 1 µl each of sense and anti-sense primers, 0.75 µl of 5' FAM- and 3' TAMARA-labeled oligonucleotide probe, 2 µl of dNTP mixture, 5 µl of 5× reaction buffer, and 0.125 µl of Taq DNA polymerase. Cycling conditions were 50°C for 2 minutes, and 95°C for 10 minutes, followed by 46 cycles at 95°C for 15 seconds and 60°C for 1 minute.</p>
         <table-wrap id="pone-0028384-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0028384.t001</object-id><label>Table 1</label><caption>
             <title>Sequences of primers and probes for qRT-PCR.</title>
           </caption><!--===== Grouping alternate versions of objects =====--><alternatives><graphic id="pone-0028384-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0028384.t001" xlink:type="simple"/><table>
@@ -333,18 +333,18 @@
               <tr>
                 <td align="left" colspan="1" rowspan="1">Forward primer</td>
                 <td align="left" colspan="1" rowspan="1">
-                  <named-content content-type="gene" xlink:type="simple">5′- AGGACGCAAGGAGGGTTTG -3′</named-content>
+                  <named-content content-type="gene" xlink:type="simple">5'- AGGACGCAAGGAGGGTTTG -3'</named-content>
                 </td>
               </tr>
               <tr>
                 <td align="left" colspan="1" rowspan="1">Reverse primer</td>
                 <td align="left" colspan="1" rowspan="1">
-                  <named-content content-type="gene" xlink:type="simple">5′- GTCCGCCGAGTCCTTACTGA -3′</named-content>
+                  <named-content content-type="gene" xlink:type="simple">5'- GTCCGCCGAGTCCTTACTGA -3'</named-content>
                 </td>
               </tr>
               <tr>
                 <td align="left" colspan="1" rowspan="1">Probe</td>
-                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5′- CAGTGCCTACAGTCTCGAGTCTGCCAGTG -3′</named-content>-TAMRA</td>
+                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5'- CAGTGCCTACAGTCTCGAGTCTGCCAGTG -3'</named-content>-TAMRA</td>
               </tr>
               <tr>
                 <td align="left" colspan="2" rowspan="1">
@@ -354,18 +354,18 @@
               <tr>
                 <td align="left" colspan="1" rowspan="1">Forward primer</td>
                 <td align="left" colspan="1" rowspan="1">
-                  <named-content content-type="gene" xlink:type="simple">5′-GGGAATTTGGCGACGTAATTC-3′</named-content>
+                  <named-content content-type="gene" xlink:type="simple">5'-GGGAATTTGGCGACGTAATTC-3'</named-content>
                 </td>
               </tr>
               <tr>
                 <td align="left" colspan="1" rowspan="1">Reverse primer</td>
                 <td align="left" colspan="1" rowspan="1">
-                  <named-content content-type="gene" xlink:type="simple">5′-GCGGAGGCTGAGGAACAG-3′</named-content>
+                  <named-content content-type="gene" xlink:type="simple">5'-GCGGAGGCTGAGGAACAG-3'</named-content>
                 </td>
               </tr>
               <tr>
                 <td align="left" colspan="1" rowspan="1">Probe</td>
-                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5′- CACAGGTGCTCTGGCCCAGCACATA -3′</named-content>-TAMRA</td>
+                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5'- CACAGGTGCTCTGGCCCAGCACATA -3'</named-content>-TAMRA</td>
               </tr>
               <tr>
                 <td align="left" colspan="2" rowspan="1">
@@ -375,18 +375,18 @@
               <tr>
                 <td align="left" colspan="1" rowspan="1">Forward primer</td>
                 <td align="left" colspan="1" rowspan="1">
-                  <named-content content-type="gene" xlink:type="simple">5′-GCCTCGGTGTGCCTTTCA-3′</named-content>
+                  <named-content content-type="gene" xlink:type="simple">5'-GCCTCGGTGTGCCTTTCA-3'</named-content>
                 </td>
               </tr>
               <tr>
                 <td align="left" colspan="1" rowspan="1">Reverse primer</td>
                 <td align="left" colspan="1" rowspan="1">
-                  <named-content content-type="gene" xlink:type="simple">5′-GGCTCGATGTGATTCAGGTAAATAT-3′</named-content>
+                  <named-content content-type="gene" xlink:type="simple">5'-GGCTCGATGTGATTCAGGTAAATAT-3'</named-content>
                 </td>
               </tr>
               <tr>
                 <td align="left" colspan="1" rowspan="1">Probe</td>
-                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5′-CACGGGCCTGAAGCCAGGTGACTTTATA-3′</named-content>-TAMRA</td>
+                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5'-CACGGGCCTGAAGCCAGGTGACTTTATA-3'</named-content>-TAMRA</td>
               </tr>
               <tr>
                 <td align="left" colspan="2" rowspan="1">
@@ -399,18 +399,18 @@
               <tr>
                 <td align="left" colspan="1" rowspan="1">Forward primer</td>
                 <td align="left" colspan="1" rowspan="1">
-                  <named-content content-type="gene" xlink:type="simple">5′-TGAGCGCGGCTACAGCTT-3′</named-content>
+                  <named-content content-type="gene" xlink:type="simple">5'-TGAGCGCGGCTACAGCTT-3'</named-content>
                 </td>
               </tr>
               <tr>
                 <td align="left" colspan="1" rowspan="1">Reverse primer</td>
                 <td align="left" colspan="1" rowspan="1">
-                  <named-content content-type="gene" xlink:type="simple">5′-TCCTTAATGTCACGCACGATTT-3′</named-content>
+                  <named-content content-type="gene" xlink:type="simple">5'-TCCTTAATGTCACGCACGATTT-3'</named-content>
                 </td>
               </tr>
               <tr>
                 <td align="left" colspan="1" rowspan="1">Probe</td>
-                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5′-ACCACCACGGCCGAGCGG-3′</named-content>-TAMRA</td>
+                <td align="left" colspan="1" rowspan="1">6FAM-<named-content content-type="gene" xlink:type="simple">5'-ACCACCACGGCCGAGCGG-3'</named-content>-TAMRA</td>
               </tr>
             </tbody>
           </table></alternatives></table-wrap>

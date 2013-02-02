@@ -20,6 +20,8 @@ Or install it yourself as:
 
 ### Searching
 
+You can perform a basic search using the ```PLOS::Client.search(query, rows, start)``` method. The second two parameters are optional. That method returns a ```PLOS::ArtcleSet``` object. ```ArticleSet``` inherits from Array and includes some meta-information about the search. The following example show the information that's available:
+
 ```ruby
 require 'plos'
 
@@ -28,6 +30,12 @@ hits = client.search("xenograft")
 hits.each do |hit|
   puts "#{hit.score} - #{hit.title} - #{hit.article_url}"
 end
+
+hits.status # Return status of the query (0 is success)
+hits.time # The amount of time the query took (in ms)
+hits.num_found # Total number of results
+hits.max_score # Score of the closest matching document
+hits.start # Index of the first result
 
 xml = hits[2].article_xml
 puts hits[2].citation

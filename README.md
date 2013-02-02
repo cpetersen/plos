@@ -91,18 +91,18 @@ hits = client.search("xenograft")
 article = hits.first.article
 
 article.article_title # The title of the article
-article.article_ids   # Returns a hash of ids. For instance {"doi"=>"##.###/journal.pxxx.###", "publisher-id"=>"###-ABC-###"} 
+article.article_ids   # Returns a Hash of ids. For instance {"doi"=>"##.###/journal.pxxx.###", "publisher-id"=>"###-ABC-###"} 
 article.journal_title # The title of the journal that published the article
-article.journal_ids   # Returns a hash of ids. Keys could include publisher-id, publisher, allenpress-id, nlm-ta, pmc, etc.
-article.issns         # Returns an array of ISSN numbers, keys could include ppub or epub among others.
-article.affiliations  # Returns an array of PLOS::Affiliation objects representing the organizations involved in this research.
-article.contributors  # Returns an array of PLOS::Contributor objects representing all the people involved in this research, including authors and editors.
-article.authors       # Returns an array of PLOS::Name objects, one for each author of this research
-article.editors       # Returns an array of PLOS::Name objects, one for each editor of this research
-article.figures       # Returns an array of PLOS::Figure objects representing the figures in this article.
-article.references    # Returns an array of PLOS::Reference objects representing all the articles this article references.
-article.sections      # Returns an array of PLOS::Section objects containing the actual content of the article.
-article.named_content # Returns an array of Hashs objects. Each representing a piece of "named-content". Named content is often used to separate genes from other text.
+article.journal_ids   # Returns a Hash of ids. Keys could include publisher-id, publisher, allenpress-id, nlm-ta, pmc, etc.
+article.issns         # Returns a Hash of ISSN numbers, keys could include ppub or epub among others.
+article.affiliations  # Returns an Array of PLOS::Affiliation objects representing the organizations involved in this research.
+article.contributors  # Returns an Array of PLOS::Contributor objects representing all the people involved in this research, including authors and editors.
+article.authors       # Returns an Array of PLOS::Name objects, one for each author of this research
+article.editors       # Returns an Array of PLOS::Name objects, one for each editor of this research
+article.figures       # Returns an Array of PLOS::Figure objects representing the figures in this article.
+article.references    # Returns an Array of PLOS::Reference objects representing all the articles this article references.
+article.sections      # Returns an Array of PLOS::Section objects containing the actual content of the article.
+article.named_content # Returns an Array of Hash objects. Each representing a piece of "named-content". Named content is often used to separate genes from other text.
 ```
 
 ## Contributing

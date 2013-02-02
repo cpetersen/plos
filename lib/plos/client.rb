@@ -16,13 +16,26 @@ module PLOS
     end
 
     def search(query, rows=50, start=0)
-      result = []
+      result = PLOS::ArticleSet.new
       doc = execute( search_url, { :q => query, :rows => rows, :start => start } )
       if doc && doc.root
         doc.root.children.each do |child|
-          next unless child.name == "result"
-          child.children.each do |doc|
-            result << PLOS::ArticleRef.new(self, doc)
+          if child.name == "lst"
+            child.children.each do |int|
+              case int.attr("name")
+              when "status"
+                result.status = int.text
+              when "QTime"
+                result.time = int.text.to_i
+              end
+            end
+          elsif child.name == "result"
+            result.num_found = child.attr("numFound").to_i if child.attr("numFound")
+            result.start = child.attr("start").to_i if child.attr("start")
+            result.max_score = child.attr("maxScore").to_f if child.attr("maxScore")
+            child.children.each do |doc|
+              result << PLOS::ArticleRef.new(self, doc)
+            end
           end
         end
       end

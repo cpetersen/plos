@@ -167,7 +167,7 @@ describe PLOS do
       article.sections.size.should == 19
     end
 
-    it "should have X named content items" do
+    it "should have 12 named content items" do
       article.named_content.size.should == 12
     end
 

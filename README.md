@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ### Searching
 
-You can perform a basic search using the ```PLOS::Client.search(query, rows, start)``` method. The second two parameters are optional. That method returns a ```PLOS::ArtcleSet``` object. ```ArticleSet``` inherits from Array and includes some meta-information about the search. The following example show the information that's available:
+You can perform a basic search using the ```PLOS::Client.search(query, rows, start)``` method. The second two parameters are optional. That method returns a ```PLOS::ArticleSet``` object. ```ArticleSet``` inherits from Array and includes some meta-information about the search. The following example show the information that's available:
 
 ```ruby
 require 'plos'

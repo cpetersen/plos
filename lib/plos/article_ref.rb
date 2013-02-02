@@ -29,7 +29,11 @@ module PLOS
     end
 
     def article_xml
-      Nokogiri::XML(RestClient.get(article_url))
+      Nokogiri::XML(article_content)
+    end
+
+    def article_content
+      RestClient.get(article_url)
     end
 
     def citation(format="RIS")

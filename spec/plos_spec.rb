@@ -11,7 +11,7 @@ describe PLOS do
 
     it "should call the correct search url when rows and start are specified" do
       RestClient.should_receive(:post).with("http://api.plos.org/search", {:api_key=>"API_KEY", :q=>"xenograft", :rows=>100, :start=>200}).and_return("")
-      client.search("xenograft", 100, 200)
+      client.search("xenograft", 200, 100)
     end
 
     it "should call the correct search url when finding all" do

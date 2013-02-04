@@ -12,7 +12,7 @@ module PLOS
     end
 
     def all(start=0, rows=50)
-      search("*:*", rows, start)
+      search("*:*", start, rows)
     end
 
     def search(query, start=0, rows=50)

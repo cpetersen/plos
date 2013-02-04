@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ### Searching
 
-You can perform a basic search using the ```PLOS::Client.search(query, rows, start)``` method. The second two parameters are optional. That method returns a ```PLOS::ArticleSet``` object. ```ArticleSet``` inherits from Array and includes some meta-information about the search. The following example show the information that's available:
+You can perform a basic search using the ```PLOS::Client.search(query, start, rows)``` method. The second two parameters are optional. That method returns a ```PLOS::ArticleSet``` object. ```ArticleSet``` inherits from Array and includes some meta-information about the search. The following example show the information that's available:
 
 ```ruby
 require 'plos'
@@ -44,7 +44,7 @@ Change the number of results starting position. The following retrieves 50 resul
 ```ruby
 require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
-hits = client.search("xenograft", 50, 100)
+hits = client.search("xenograft", 100, 50)
 ```
 
 Retrieve all results (paged). The following retrieves all results 200 - 300:
@@ -52,7 +52,7 @@ Retrieve all results (paged). The following retrieves all results 200 - 300:
 ```ruby
 require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
-hits = client.all(100, 200)
+hits = client.all(200, 100)
 ```
 
 ### Getting the Article Details

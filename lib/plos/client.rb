@@ -11,11 +11,11 @@ module PLOS
       self.base_url = base_url
     end
 
-    def all(rows=50, start=0)
+    def all(start=0, rows=50)
       search("*:*", rows, start)
     end
 
-    def search(query, rows=50, start=0)
+    def search(query, start=0, rows=50)
       result = PLOS::ArticleSet.new
       doc = execute( search_url, { :q => query, :rows => rows, :start => start } )
       if doc && doc.root

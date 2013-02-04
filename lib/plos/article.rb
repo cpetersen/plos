@@ -49,6 +49,35 @@ module PLOS
       end
     end
 
+    def self.base_url
+      "http://www.plosone.org"
+    end
+
+    def self.get(id)
+      PLOS::Article.new(self.xml(id))
+    end
+
+    def self.xml(id)
+      Nokogiri::XML(self.content(id))
+    end
+
+    def self.content(id)
+      RestClient.get(self.url(id))
+    end
+
+    def self.url(id, format="XML")
+      # format = "XML|PDF"
+      "#{base_url}/article/fetchObjectAttachment.action?uri=info:doi/#{id}&representation=#{format}"
+    end
+    
+    def self.ris_citation_url(id)
+      "#{base_url}/article/getRisCitation.action?articleURI=info:doi/#{id}"
+    end
+
+    def self.bib_tex_citation_url(id)
+      "#{base_url}/article/getBibTexCitation.action?articleURI=info:doi/#{id}"
+    end
+
     def authors
       contributors.collect { |contrib| contrib.name if contrib.type == "author" }.compact
     end
@@ -82,5 +111,3 @@ module PLOS
     end
   end
 end
-
-# <named-content content-type="gene" xlink:type="simple">5′- AGGACGCAAGGAGGGTTTG -3′</named-content>

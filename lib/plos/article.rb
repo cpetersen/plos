@@ -3,6 +3,7 @@ module PLOS
     include XmlHelpers
 
     attr_accessor :node
+    attr_accessor :id
     attr_accessor :article_title
     attr_accessor :article_ids
     attr_accessor :journal_title
@@ -15,7 +16,8 @@ module PLOS
     attr_writer :sections
     attr_writer :named_content
 
-    def initialize(node)
+    def initialize(id, node)
+      self.id = id
       self.node = node
 
       self.article_title = tag_value(node.search("title-group"), "article-title")
@@ -57,7 +59,7 @@ module PLOS
     end
 
     def self.get(id)
-      PLOS::Article.new(self.xml(id))
+      PLOS::Article.new(id, self.xml(id))
     end
 
     def self.xml(id)
@@ -79,6 +81,11 @@ module PLOS
 
     def self.bib_tex_citation_url(id)
       "#{base_url}/article/getBibTexCitation.action?articleURI=info:doi/#{id}"
+    end
+
+    def self.citation(id, format="RIS")
+      url = (format == "RIS" ? PLOS::Article.ris_citation_url(id) : PLOS::Article.bib_tex_citation_url(id))
+      RestClient.get(url)
     end
 
     def authors
@@ -111,6 +118,10 @@ module PLOS
 
     def named_content
       @named_content ||= []
+    end
+
+    def citation(format="RIS")
+      PLOS::Article.citation(id, format)
     end
   end
 end

@@ -2,7 +2,7 @@ require 'plos'
 
 describe PLOS do
   context "Article 2" do
-    let(:article) { PLOS::Article.new(Nokogiri::XML(File.read("spec/article2.xml"))) }
+    let(:article) { PLOS::Article.new("10.1371/journal.pmed.0040075", Nokogiri::XML(File.read("spec/article2.xml"))) }
 
     it "should have the proper article title" do
       article.article_title.should == "Clinical Xenotransplantation of Organs: Why Aren't We There Yet?"

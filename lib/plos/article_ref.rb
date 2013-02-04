@@ -32,8 +32,7 @@ module PLOS
     end
 
     def citation(format="RIS")
-      url = (format == "RIS" ? PLOS::Article.ris_citation_url(id) : PLOS::Article.bib_tex_citation_url(id))
-      RestClient.get(url)
+      PLOS::Article.citation(id, format)
     end
   end
 end

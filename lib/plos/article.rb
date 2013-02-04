@@ -2,6 +2,7 @@ module PLOS
   class Article
     include XmlHelpers
 
+    attr_accessor :node
     attr_accessor :article_title
     attr_accessor :article_ids
     attr_accessor :journal_title
@@ -15,6 +16,8 @@ module PLOS
     attr_writer :named_content
 
     def initialize(node)
+      self.node = node
+
       self.article_title = tag_value(node.search("title-group"), "article-title")
       self.journal_title = tag_value(node.search("journal-title-group"), "journal-title")
 

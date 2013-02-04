@@ -2,6 +2,7 @@ module PLOS
   class ArticleRef
     include PLOS::XmlHelpers
 
+    attr_accessor :node
     attr_accessor :client
     attr_accessor :score
     attr_accessor :type
@@ -18,6 +19,8 @@ module PLOS
     alias :publication_date= :published_at=
 
     def initialize(client, node)
+      self.node = node
+
       self.client = client
       node.children.each do |child|
         parse_node(child, self)

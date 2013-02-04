@@ -27,9 +27,6 @@ require 'plos'
 
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
-hits.each do |hit|
-  puts "#{hit.score} - #{hit.title} - #{hit.article_url}"
-end
 
 hits.status # Return status of the query (0 is success)
 hits.time # The amount of time the query took (in ms)
@@ -37,8 +34,9 @@ hits.num_found # Total number of results
 hits.max_score # Score of the closest matching document
 hits.start # Index of the first result
 
-xml = hits[2].article_xml
-puts hits[2].citation
+hits.each do |hit|
+  puts "#{hit.score} - #{hit.title} - #{hit.id}"
+end
 ```
 
 Change the number of results starting position. The following retrieves 50 results starting at result 100:
@@ -59,33 +57,34 @@ hits = client.all(100, 200)
 
 ### Getting the Article Details
 
-You can get the full article from the ```ArticleRef``` in a number of ways.
-
-You can get the raw xml content using ```ArticleRef.article_content```. For example, the following returns a string:
-
-```ruby
-require 'plos'
-client = PLOS::Client.new(ENV["API_KEY"])
-hits = client.search("xenograft")
-str = hits.first.article_content
-```
-
-You may also get the parsed xml content using ```ArticleRef.article_xml```. For example, the following returns a ```Nokogiri::XML::Document```:
-
-```ruby
-require 'plos'
-client = PLOS::Client.new(ENV["API_KEY"])
-hits = client.search("xenograft")
-xml_doc = hits.first.article_xml
-```
-
-Finally you may get an ```Article``` object using ```ArticleRef.article```. For example, the following returns a ```PLOS::Article```:
+You may get an ```Article``` object using ```ArticleRef.article```. For example, the following returns a ```PLOS::Article```:
 
 ```ruby
 require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
 article = hits.first.article
+```
+
+### Getting the Article's Citation
+
+You may get a citation for the article using the ```citation``` method.
+
+```ruby
+require 'plos'
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.search("xenograft")
+citation = hits.first.citation # returns the RIS citation for the first ArticleRef
+```
+
+You may also get the citation from the ```Article``` object. The following code get the citation. Both ```Article```'s and ```ArticleRef```'s can return BibTex and RIS citations.
+
+```ruby
+require 'plos'
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.search("xenograft")
+article = hits.first.article
+citation = article.citation("bibtex") # returns the BibTex citation for the first ArticleRef
 ```
 
 ### Working with Articles
@@ -111,6 +110,48 @@ article.figures       # Returns an Array of PLOS::Figure objects representing th
 article.references    # Returns an Array of PLOS::Reference objects representing all the articles this article references.
 article.sections      # Returns an Array of PLOS::Section objects containing the actual content of the article.
 article.named_content # Returns an Array of Hash objects. Each representing a piece of "named-content". Named content is often used to separate genes from other text.
+```
+
+### Other Helper Methods
+
+If you have the id of an ```Article```, you can get the content in various ways. You can get the raw content:
+
+```ruby
+require 'plos'
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.search("xenograft")
+article_id = hits.first.id
+PLOS::Article.content(id) # Returns the xml as a string
+```
+
+```PLOS::Article.xml(id)``` returns a ```Nokogiri::XML``` object of the xml contents.
+
+```ruby
+require 'plos'
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.search("xenograft")
+article_id = hits.first.id
+PLOS::Article.xml(id) # Returns the xml
+```
+
+```PLOS::Article.get(id)``` returns a ```PLOS::Article``` object.
+
+```ruby
+require 'plos'
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.search("xenograft")
+article_id = hits.first.id
+PLOS::Article.get(id) # Returns the Article object
+```
+
+```PLOS::Article.citation(id)``` returns a ```PLOS::Article``` object.
+
+```ruby
+require 'plos'
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.search("xenograft")
+article_id = hits.first.id
+PLOS::Article.get(id) # Returns the Article object
 ```
 
 ## Contributing

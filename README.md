@@ -84,7 +84,7 @@ require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
 article = hits.first.article
-citation = article.citation("bibtex") # returns the BibTex citation for the first ArticleRef
+citation = article.citation("bibtex") # returns the BibTex citation for the Article
 ```
 
 ### Working with Articles
@@ -131,7 +131,7 @@ require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
 article_id = hits.first.id
-PLOS::Article.xml(id) # Returns the xml
+PLOS::Article.xml(article_id) # Returns the xml
 ```
 
 ```PLOS::Article.get(id)``` returns a ```PLOS::Article``` object.
@@ -141,7 +141,7 @@ require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
 article_id = hits.first.id
-PLOS::Article.get(id) # Returns the Article object
+PLOS::Article.get(article_id) # Returns the Article object
 ```
 
 ```PLOS::Article.citation(id)``` returns a ```PLOS::Article``` object.
@@ -151,7 +151,7 @@ require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
 article_id = hits.first.id
-PLOS::Article.get(id) # Returns the Article object
+PLOS::Article.citation(article_id) # Returns the RIS citation as a String (could pass "BibTex" as the second parameter to get the BibTex format)
 ```
 
 ## Contributing

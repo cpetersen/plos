@@ -18,6 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
+### Retrieving All Article References
+
+The ```all``` methods returns all references from PLOS. The method takes the form ```PLOS::Client.all(start, rows)```. You can page the results using the start parameter. Rows determines the page size.
+
+```ruby
+require 'plos'
+
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.all
+```
+
 ### Searching
 
 You can perform a basic search using the ```PLOS::Client.search(query, start, rows)``` method. The second two parameters are optional. That method returns a ```PLOS::ArticleSet``` object. ```ArticleSet``` inherits from Array and includes some meta-information about the search. The following example show the information that's available:
@@ -55,10 +66,6 @@ client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.all(200, 100)
 ```
 
-### Getting the Article Details
-
-You may get an ```Article``` object using ```ArticleRef.article```. For example, the following returns a ```PLOS::Article```:
-
 Note: there may be multiple ```ArticleRef```'s pointing to the same article. For instance, a search for "*:*" will return references for:
 
  * 10.1371/journal.pbio.0040394
@@ -67,7 +74,23 @@ Note: there may be multiple ```ArticleRef```'s pointing to the same article. For
  * 10.1371/journal.pbio.0040394/references
  * 10.1371/journal.pbio.0040394/body
 
-which all point to the same article, 10.1371/journal.pbio.0040394.
+which all point to the same article, 10.1371/journal.pbio.0040394. You can access the id of the article and identifier which part of the article this reference refers to with the methods ```article_id``` and ```article_part``` respectively.
+
+```ruby
+require 'plos'
+
+client = PLOS::Client.new(ENV["API_KEY"])
+hits = client.all
+
+hits.each do |hit|
+  puts "#{hit.title} - #{hit.article_id} - #{hit.article_part}"
+end
+```
+
+### Getting the Article Details
+
+You may get an ```Article``` object using ```ArticleRef.article```. For example, the following returns a ```PLOS::Article```:
+
 
 ```ruby
 require 'plos'

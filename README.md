@@ -121,7 +121,7 @@ require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])
 hits = client.search("xenograft")
 article_id = hits.first.id
-PLOS::Article.content(id) # Returns the xml as a string
+PLOS::Article.content(article_id) # Returns the xml as a string
 ```
 
 ```PLOS::Article.xml(id)``` returns a ```Nokogiri::XML``` object of the xml contents.

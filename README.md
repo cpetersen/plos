@@ -59,6 +59,16 @@ hits = client.all(200, 100)
 
 You may get an ```Article``` object using ```ArticleRef.article```. For example, the following returns a ```PLOS::Article```:
 
+Note: there may be multiple ```ArticleRef```'s pointing to the same article. For instance, a search for "*:*" will return references for:
+
+ * 10.1371/journal.pbio.0040394
+ * 10.1371/journal.pbio.0040394/title
+ * 10.1371/journal.pbio.0040394/abstract
+ * 10.1371/journal.pbio.0040394/references
+ * 10.1371/journal.pbio.0040394/body
+
+which all point to the same article, 10.1371/journal.pbio.0040394.
+
 ```ruby
 require 'plos'
 client = PLOS::Client.new(ENV["API_KEY"])

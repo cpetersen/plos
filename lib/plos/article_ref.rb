@@ -27,8 +27,16 @@ module PLOS
       end
     end
 
+    def article_id
+      id.split("/")[0..1].join("/") if id
+    end
+
+    def article_part
+      id.split("/")[2] if id
+    end
+
     def article
-      @article ||= PLOS::Article.get(id)
+      @article ||= PLOS::Article.get(article_id)
     end
 
     def citation(format="RIS")

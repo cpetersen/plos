@@ -1,4 +1,5 @@
 require 'plos'
+require 'spec_helper'
 
 describe PLOS do
   context "A client" do

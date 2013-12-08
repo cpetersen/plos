@@ -5,7 +5,7 @@ module PLOS
     def parse_node(node, obj=nil)
       value = case(node.name)
       when "arr"
-        node.children.collect { |child| parse_node(child) }
+        node.xpath('./*').collect { |child| parse_node(child) }
       when "date"
         DateTime.parse(node.content)
       when "float"

@@ -23,7 +23,7 @@ module PLOS
       self.node = node
 
       self.client = client
-      node.children.each do |child|
+      node.xpath('./*').each do |child|
         parse_node(child, self)
       end
     end

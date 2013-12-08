@@ -13,8 +13,8 @@ module PLOS
       else
         node.content
       end
-      if node.attr("name") && obj
-        obj.send("#{node.attr("name")}=",value)
+      if node.attr("name") && obj && obj.respond_to?(:"#{node.attr("name")}=")
+        obj.send(:"#{node.attr("name")}=", value)
       end
       value
     end

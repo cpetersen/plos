@@ -11,7 +11,7 @@ module PLOS
     def initialize(node)
       self.id = node.attr("id") if node.attr("id")
       self.type = node.attr("sec-type") if node.attr("sec-type")
-      node.children.each do |child|
+      node.xpath('./*').each do |child|
         case child.name
         when "title"
           self.title = child.text

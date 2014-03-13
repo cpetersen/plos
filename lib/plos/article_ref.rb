@@ -12,6 +12,7 @@ module PLOS
     attr_accessor :journal
     attr_accessor :published_at
     attr_accessor :title
+    attr_accessor :abstract
 
     alias :article_type= :type=
     alias :author_display= :authors=
@@ -22,7 +23,7 @@ module PLOS
       self.node = node
 
       self.client = client
-      node.children.each do |child|
+      node.xpath('./*').each do |child|
         parse_node(child, self)
       end
     end

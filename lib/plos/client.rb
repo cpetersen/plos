@@ -19,9 +19,9 @@ module PLOS
       result = PLOS::ArticleSet.new
       doc = execute( search_url, { :q => query, :rows => rows, :start => start } )
       if doc && doc.root
-        doc.root.children.each do |child|
+        doc.root.xpath('./*').each do |child|
           if child.name == "lst"
-            child.children.each do |int|
+            child.xpath('./*').each do |int|
               case int.attr("name")
               when "status"
                 result.status = int.text
@@ -33,7 +33,7 @@ module PLOS
             result.num_found = child.attr("numFound").to_i if child.attr("numFound")
             result.start = child.attr("start").to_i if child.attr("start")
             result.max_score = child.attr("maxScore").to_f if child.attr("maxScore")
-            child.children.each do |doc|
+            child.xpath('./*').each do |doc|
               result << PLOS::ArticleRef.new(self, doc)
             end
           end

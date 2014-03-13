@@ -44,6 +44,11 @@ describe PLOS do
               <str>Joseph E. Tomaszewski</str>
               <str>James H. Doroshow</str>
             </arr>
+            <arr name="abstract">
+              <str>
+                Lorem ipsum dolor sit amet
+              </str>
+            </arr>
             <str name="eissn">1932-6203</str>
             <str name="id">10.1371/journal.pone.0050494</str>
             <str name="journal">PLoS ONE</str>

@@ -6,7 +6,7 @@ module PLOS
     attr_accessor :api_key
     attr_accessor :base_url
 
-    def initialize(api_key, base_url="http://api.plos.org")
+    def initialize(api_key, base_url="https://api.plos.org")
       self.api_key = api_key
       self.base_url = base_url
     end

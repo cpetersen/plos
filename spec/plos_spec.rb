@@ -6,17 +6,17 @@ describe PLOS do
     let(:client) { client = PLOS::Client.new("API_KEY") }
 
     it "should call the correct search url" do
-      RestClient.should_receive(:post).with("http://api.plos.org/search", {:api_key=>"API_KEY", :q=>"xenograft", :rows=>50, :start=>0}).and_return("")
+      RestClient.should_receive(:post).with("https://api.plos.org/search", {:api_key=>"API_KEY", :q=>"xenograft", :rows=>50, :start=>0}).and_return("")
       client.search("xenograft")
     end
 
     it "should call the correct search url when rows and start are specified" do
-      RestClient.should_receive(:post).with("http://api.plos.org/search", {:api_key=>"API_KEY", :q=>"xenograft", :rows=>100, :start=>200}).and_return("")
+      RestClient.should_receive(:post).with("https://api.plos.org/search", {:api_key=>"API_KEY", :q=>"xenograft", :rows=>100, :start=>200}).and_return("")
       client.search("xenograft", 200, 100)
     end
 
     it "should call the correct search url when finding all" do
-      RestClient.should_receive(:post).with("http://api.plos.org/search", {:api_key=>"API_KEY", :q=>"*:*", :rows=>50, :start=>0}).and_return("")
+      RestClient.should_receive(:post).with("https://api.plos.org/search", {:api_key=>"API_KEY", :q=>"*:*", :rows=>50, :start=>0}).and_return("")
       client.all
     end
 
